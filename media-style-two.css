@@ -1,0 +1,11 @@
+@media screen and (max-width: 1660px) { 
+
+    .left-curtain {
+        display: none;
+    }
+
+    .right-curtain {
+        display: none;
+    }
+
+}

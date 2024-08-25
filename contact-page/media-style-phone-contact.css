@@ -1,0 +1,282 @@
+/*///////////////////////////////// @Media Index ////////////////////////////*/
+
+
+
+/* //////////////////////////// Most Mobile devices ////////////////////////    */
+@media screen and (max-width: 480px) {
+
+
+    .contact::before {
+        width: 1090px;
+        height: 1800px;
+    }
+
+
+    .left-curtain {
+        display: none;
+
+    }
+
+    .right-curtain {
+        display: none;
+    }
+
+
+    /*///////////////////////////////// Nav Decor ////////////////////////////*/
+    .nav-background {
+        width: 1150px;
+        height: auto;
+        transform: translate(-50%, -95%);
+
+    }
+
+    /*///////////////////////// Navigation Overall /////////////////////*/
+    .nav-home,
+    .nav-about,
+    .nav-contact,
+    .nav-projects {
+        width: 210px;
+        height: 90px;
+        font-size: 30px;
+        line-height: 80px;
+
+    }
+
+    .current {
+        height: 120px;
+    }
+
+    /*///////////////////////// Nav Home //////////////////////////*/
+    .nav-home {
+        transform: translate(-235.5%, -20px);
+    }
+
+    .nav-home:hover {
+        height: 90px;
+    }
+
+    /*///////////////////////////// Nav About /////////////////////////*/
+    .nav-about {
+        transform: translate(-136%, -20px);
+    }
+
+    .nav-about:hover {
+        height: 90px;
+    }
+
+    /*/////////////////////////////////// Nav Contact ///////////////////////*/
+    .nav-contact {
+        transform: translate(36%, -20px);
+    }
+
+    .nav-contact:hover {
+        height: 90px;
+    }
+
+    /*///////////////////////////////// Nav Projects ////////////////////////////*/
+    .nav-projects {
+        transform: translate(135%, -20px);
+    }
+
+    .nav-projects:hover {
+        height: 16%;
+        max-height: 90px;
+    }
+
+
+    /*///////////////////////// Box Outline Outside /////////////////////////*/
+
+    .box-outline-outside-contact {
+        width: 1000px;
+        height: 1400px;
+        left: 11%;
+        transform: translate(0%, -7%);
+    }
+
+    /*///////////////////////////// Box Outline Inside ////////////////////////////*/
+
+    .box-outline-inside-contact {
+        width: 970px;
+        height: 1360px;
+    }
+
+
+    /*////////////////////////////////// Footer Outline //////////////////////////*/
+    /*////////////////////////////////// Footer Outline //////////////////////////*/
+
+    .box-outline-outside-foot {
+        width: 1090px;
+        height: 300px;
+        transform: translate(-18%, 440%);
+    }
+
+
+    /*/////////////////////////////////////*/
+
+    .box-outline-inside-foot {
+        left: 1%;
+        width: 1070px;
+        height: 276px;
+
+    }
+
+    .github {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    .twitter {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    .discord {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    .linkedin {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    /*///////////////////////////////// Heading Box ////////////////////////////*/
+
+    /*////////////////////////////// Paragraph Outline ////////////////////////////*/
+
+    .box-outline-paragraph-contact {
+        width: 930px;
+        height: 90px;
+        transform: translate(-13%, -40%);
+        z-index: 1;
+    }
+
+    .box-outline-paragraph-offline {
+        width: 720px;
+        height: 350px;
+        transform: translate(-2%, 80%);
+        z-index: 2;
+    
+    }
+
+    footer.section p {
+        font-size: 25px;
+        width: 900px;
+        transform: translate(-20%, 0%);
+    }
+
+    /*///////////////////////////////// Heading Text ////////////////////////////*/
+
+
+    /*///////////////////////////////// Paragraph Text ////////////////////////////*/
+
+    .contact-me p {
+        width: 900px;
+        text-align: center;
+        z-index: 1;
+        font-size: 40px;
+        line-height: 55px;
+        top: -20%;
+        left: 2%;
+    }
+
+    .offline p {
+        width: 700px;
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: 2px;
+        top: -5%;
+        left: 5%;
+        transform: translate(-0%, 0%);
+        z-index: 1;
+    }
+
+    /*///////////////////////////////// Images /////////////////////////////////////*/
+
+    .card-pile {
+        display: none;
+    }
+
+    .card-side {
+        scale: 120%;
+        rotate: -5deg;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(0%, 20%);
+    }
+
+
+
+    /*///////////////////////////////// Button ////////////////////////////*/
+
+    .dia-left-contact img {
+        width: 200px;
+        height: auto;
+        top: 0%;
+        left: 1%;
+    }
+
+    .dia-right-contact img {
+        width: 200px;
+        height: auto;
+        top: 0%;
+        left: 79%;
+    }
+
+
+    .dia-left-contact img {
+        transform: translate(0%, 360%);
+    }
+
+
+    .dia-right-contact img {
+        transform: translate(0%, 7%);
+    }
+
+
+    /*///////////////////////////////// Decor ////////////////////////////*/
+
+    .dia-left img {
+        transform: translate(-128%, 332%);
+    }
+
+    .dia-right img {
+        transform: translate(378%, -69%);
+    }
+
+    /*///////////////////////////////// Form ////////////////////////////*/
+
+    .form-information-outside {
+        width: 645px;
+        height: 825px;
+        transform: translate(2%, 20%);
+        z-index: 1;
+    }
+
+    .form-inside {
+        width: 600px;
+        height: 780px;
+    }
+
+    input[type="text"],
+    .detail {
+        font-size: 30px;
+        height: 12%;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .form-clear,
+    .form-sumbit {
+        width: 320px;
+        height: 70px;
+        transform: translate(0%, 1200%);
+        font-size: 32px;
+    }
+
+}
