@@ -1,26 +1,26 @@
 const popups = [
     {
-        images: ['/image/Death.jpg'],
+        images: ['../image/Death.jpg'],
         title: "Death Trigger",
         text: "A collage of others work into one, a horrifying death awaits. This is what triggers the end of a life. "
     },
     {
-        images: ['/image/Forgotten Front View.jpg', '/image/Forgotten Side View part 2.jpg', '/image/Forgotten Side View Part 1.jpg', '/image/Forgotten Back View.jpg'],
+        images: ['../image/Forgotten Front View.jpg', '../image/Forgotten Side View part 2.jpg', '../image/Forgotten Side View Part 1.jpg', '../image/Forgotten Back View.jpg'],
         title: "Forgotten",
         text: "A abandoned room covered in overgrown vegetation, a cold room but also warm at the same time."
     },
     {
-        images: ['/image/Otterlette.jpg', '/image/Otterlette-Front-View.jpg', '/image/Otterlette-Side-View.jpg'],
+        images: ['../image/Otterlette.jpg', '../image/Otterlette-Front-View.jpg', '../image/Otterlette-Side-View.jpg'],
         title: "Otterlette",
         text: "Inspired by the game Genshin Impact, this adorable otter aims to steal your heart."
     },
     {
-        images: ['/image/Cat-front.jpg', '/image/Cat-side.jpg'],
+        images: ['../image/Cat-front.jpg', '../image/Cat-side.jpg'],
         title: "Meow Meow",
         text: "Inspired by the game Neko Atsume, this fuffly cat likes to lazes around and do nothing."
     },
     {
-        images: ['/image/duck-fam.jpg', '/image/duck-one.jpg', '/image/duck-two.jpg', '/image/duck-three.jpg', '/image/duck-four.jpg'],
+        images: ['../image/duck-fam.jpg', '../image/duck-one.jpg', '../image/duck-two.jpg', '../image/duck-three.jpg', '../image/duck-four.jpg'],
         title: "Duck Family",
         text: "Inspired by people I hold dear, these ducks takes after them with their traits and lifestyle."
     }
