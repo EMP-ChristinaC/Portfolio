@@ -17,7 +17,7 @@
 .home-sniffle::before,
 .home-liyue::before {
     content: '';
-    background-image: url('../image/background.png');
+    background-image: url('/image/background.png');
     filter: brightness(20%);
     position: absolute;
     background-position: center;
