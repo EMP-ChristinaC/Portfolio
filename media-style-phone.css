@@ -186,11 +186,18 @@
 
     /*////////////////////////////// Paragraph Outline ////////////////////////////*/
 
+    .box-outline-paragraph-update {
+        width: 870px;
+        height: 620px;
+        transform: translate(-10%, 100%);
+        z-index: 1;
+    }
+
 
     .box-outline-paragraph-wel {
         width: 870px;
-        height: 280px;
-        transform: translate(-10%, 65%);
+        height: 440px;
+        transform: translate(-10%, 39%);
         z-index: 1;
     }
 
@@ -227,6 +234,18 @@
 
 
     /*///////////////////////////////// Paragraph Text ////////////////////////////*/
+
+    .update p {
+        width: 850px;
+        /* transform: translate(-22%, 35%); */
+        z-index: 1;
+        font-size: 40px;
+        line-height: 45px;
+        top: -3%;
+        left: 2%;
+    }
+
+
 
     .welcome p {
         width: 850px;
