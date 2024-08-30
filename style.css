@@ -114,16 +114,16 @@
     left: 50%;
 }
 
-.box-outline-paragraph-update {
-    width: 360px;
-    height: 450px;
-    transform: translate(15%, 10%);
-}
-
 .box-outline-paragraph-wel {
     width: 460px;
     height: 290px;
     transform: translate(-95%, -10%);
+}
+
+.box-outline-paragraph-update {
+    width: 360px;
+    height: 450px;
+    transform: translate(15%, 10%);
 }
 
 .box-outline-paragraph-intro {
@@ -262,9 +262,10 @@
 
 }
 
-.update p {
+
+.welcome p {
     width: 440px;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 32px;
     letter-spacing: 2px;
     position: absolute;
@@ -273,9 +274,9 @@
     /* transform: translate(-95%, -9%); */
 }
 
-.welcome p {
+.update p {
     width: 440px;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 32px;
     letter-spacing: 2px;
     position: absolute;
