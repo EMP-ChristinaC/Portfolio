@@ -6,10 +6,10 @@
 @media screen and (max-width: 480px) {
 
 
-    .home-smash::before {
+    /* .home-smash::before {
         width: 1090px;
         height: 6100px;
-    }
+    } */
 
     .left-curtain {
         display: none;

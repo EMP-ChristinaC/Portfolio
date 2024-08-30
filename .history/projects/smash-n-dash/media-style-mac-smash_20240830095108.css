@@ -1,0 +1,84 @@
+@media screen and (min-width: 2005px) and (min-height: 1353px) {
+
+
+    /*///////////////////////////////// Nav Decor ////////////////////////////*/
+    .nav-background {
+        transform: translate(-50%, -57%);
+        width: 1320px;
+        height: auto;
+
+    }
+
+
+    .nav-home,
+    .nav-about,
+    .nav-contact,
+    .nav-projects {
+        width: 250px;
+        height: 120px;
+        font-size: 38px;
+        font-weight: 400;
+        line-height: 120px;
+    }
+
+    .current {
+        height: 16%;
+    }
+
+    /*///////////////////////// Nav Home //////////////////////////*/
+    .nav-home {
+        transform: translate(-235.5%);
+    }
+
+    .nav-home:hover {
+        height: 16%;
+    }
+
+    /*///////////////////////////// Nav About /////////////////////////*/
+    .nav-about {
+        transform: translate(-136%);
+    }
+
+    .nav-about:hover {
+        height: 16%;
+    }
+
+    /*/////////////////////////////////// Nav Contact ///////////////////////*/
+    .nav-contact {
+        transform: translate(36%);
+    }
+
+    .nav-contact:hover {
+        height: 16%;
+    }
+
+    /*///////////////////////////////// Nav Projects ////////////////////////////*/
+    .nav-projects {
+        transform: translate(135%);
+    }
+
+    .nav-projects:hover {
+        height: 16%;
+    }
+
+    /*//////////////////////////*/
+
+
+    /* .home-smash::before {
+        width: 2005px;
+        height: 3200px;
+    } */
+
+
+    .left-curtain img {
+        width: auto;
+        height: 1480px;
+    }
+
+
+    .right-curtain img {
+        width: auto;
+        height: 1510px;
+    }
+
+}

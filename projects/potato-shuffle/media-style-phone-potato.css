@@ -6,10 +6,10 @@
 @media screen and (max-width: 480px) {
 
 
-    .home-potato::before {
+    /* .home-potato::before {
         width: 1090px;
         height: 6240px;
-    }
+    } */
 
     .left-curtain {
         display: none;

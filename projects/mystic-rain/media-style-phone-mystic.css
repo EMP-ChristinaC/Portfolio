@@ -5,11 +5,11 @@
 /* //////////////////////////// Most Mobile devices ////////////////////////    */
 @media screen and (max-width: 480px) {
 
-
+/* 
     .home-mystic::before {
         width: 1090px;
         height: 6900px;
-    }
+    } */
 
     .left-curtain {
         display: none;

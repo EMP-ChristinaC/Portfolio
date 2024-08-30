@@ -178,6 +178,10 @@ footer.section p {
     transform: translate(-7%, -39%);
 }
 
+.card-side {
+    display: none;
+}
+
 /*/////////////////////////////////////*/
 .github {
     width: 45px;

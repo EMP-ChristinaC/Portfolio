@@ -6,10 +6,10 @@
 @media screen and (max-width: 480px) {
 
 
-    .home::before {
+    /* .home::before {
         width: 1090px;
         height: 729%;
-    }
+    } */
 
     .left-curtain {
         display: none;

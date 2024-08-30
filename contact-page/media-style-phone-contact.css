@@ -5,11 +5,11 @@
 /* //////////////////////////// Most Mobile devices ////////////////////////    */
 @media screen and (max-width: 480px) {
 
-
+/* 
     .contact::before {
         width: 1090px;
         height: 1800px;
-    }
+    } */
 
 
     .left-curtain {

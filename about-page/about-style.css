@@ -500,7 +500,7 @@ footer.section p {
     max-height: 200px;
     margin: auto;
     overflow: hidden;
-    transform: translate(0%, 750%);
+    transform: translate(0%, 80%);
 
 }
 
@@ -575,7 +575,7 @@ footer.section p {
 .language {
     display: flex;
     padding: 20px;
-    transform: translate(0%, 570%);
+    transform: translate(0%, 35%);
 
     position: relative;
     width: 100%;

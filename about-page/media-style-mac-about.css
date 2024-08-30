@@ -63,10 +63,10 @@
 
 
 
-    .about::before {
+    /* .about::before {
         width: 2005px;
         height: 3100px;
-    }
+    } */
 
 
     .left-curtain img {
@@ -80,7 +80,7 @@
         height: 1510px;
     }
 
-    .carousel {
+    /* .carousel {
         transform: translate(0%, 890%);
 
     }
@@ -88,7 +88,7 @@
     .language {
         transform: translate(1%, 660%);
 
-    }
+    } */
 
 
 
