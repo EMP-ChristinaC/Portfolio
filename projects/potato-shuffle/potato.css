@@ -1,8 +1,9 @@
 
 /*///////////////////////////////// Box Outline ////////////////////////////*/
 .box-outline-outside-potato-overview,
-.box-outline-outside-potato-progress {
-    width: 990px;
+.box-outline-outside-potato-progress,
+.box-outline-outside-potato-play {
+    width: 1800px;
     height: 804px;
     background: rgba(98, 91, 92);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -16,18 +17,25 @@
     transform: translate(-50%, -27%);
 }
 
+.box-outline-outside-potato-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 79%);
+}
+
 .box-outline-outside-potato-progress {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 80%);
+    transform: translate(-50%, 186%);
 }
 
 /*//////////////////////////////////*/
 
 
 .box-outline-outside-potato {
-    width: 990px;
+    width: 1800px;
     height: 990px;
     background: rgba(98, 91, 92);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -38,7 +46,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 1495px);
+    transform: translate(-50%, 238%);
 }
 
 
@@ -46,12 +54,19 @@
 /*//////////////////////////////////////////////////////////////////////////////*/
 
 .box-outline-inside-potato-overview,
-.box-outline-inside-potato-progress {
-    width: 962px;
+.box-outline-inside-potato-progress,
+.box-outline-inside-potato-play {
+    width: 1745px;
     height: 780px;
     background: #EDE7DD;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
     border-radius: 20px;
+}
+
+.box-outline-inside-potato-play {
+    position: absolute;
+    top: 1.5%;
+    left: 1.5%;
 }
 
 .box-outline-inside-potato-overview {
@@ -71,7 +86,7 @@
 
 
 .box-outline-inside-potato {
-    width: 962px;
+    width: 1745px;
     height: 960px;
     background: #EDE7DD;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
@@ -92,8 +107,8 @@
 
 
 .box-outline-heading-potato {
-    width: 870px;
-    height: 89px;
+    width: 1700px;
+    height: 20px;
     background: #E7DECD;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
@@ -102,9 +117,9 @@
 
 .box-outline-heading-potato {
     position: absolute;
-    top: 50%;
+    top: 28%;
     left: 50%;
-    transform: translate(-50%, -200%);
+    transform: translate(-50%, -920%);
 }
 
 
@@ -112,34 +127,38 @@
 .box-outline-heading-two-potato,
 .box-outline-heading-three-potato,
 .box-outline-heading-four-potato {
-    height: 55px;
+    width: 1700px;
+    height: 20px;
     background: #E7DECD;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
     z-index: 1;
     position: absolute;
-    top: 50%;
-    left: 50%;
+
 }
 
 .box-outline-heading-two-potato {
-    transform: translate(-50%, 1270%);
-    width: 510px;
+    /* transform: translate(-50%, 1270%); */
+    top: 4%;
+    left: 3%;
 }
 
 .box-outline-heading-three-potato {
-    transform: translate(-50%, 1900%);
-    width: 510px;
+    /* transform: translate(-50%, 1900%); */
+    top: 52%;
+    left: 3%;
 }
 
 .box-outline-heading-four-potato {
-    transform: translate(-50%, 2800%);
-    width: 510px;
+    /* transform: translate(-50%, 2800%); */
+    top: 4%;
+    left: 3%;
 }
 
 .box-outline-heading-five-potato {
-    transform: translate(-50%, 3450%);
-    width: 510px;
+    /* transform: translate(-50%, 3450%); */
+    top: 4%;
+    left: 3%;
 }
 
 /*/////////////////////////////////////*/
@@ -147,19 +166,19 @@
 .box-outline-paragraph-potato,
 .box-outline-type-potato,
 .box-outline-credit {
-    background: #E7DECD;
+    /* background: #E7DECD;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+    border-radius: 20px; */
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 30%;
 }
 
 
 .box-outline-paragraph-potato {
     width: 375px;
     height: 330px;
-    transform: translate(-116%, -18%);
+    transform: translate(-116%, -10%);
     z-index: 1;
 }
 
@@ -167,14 +186,14 @@
 .box-outline-type-potato {
     width: 375px;
     height: 200px;
-    transform: translate(-116%, 150%);
+    transform: translate(-116%, 90%);
     z-index: 1;
 }
 
 .box-outline-credit {
-    width: 440px;
+    width: 375px;
     height: 60px;
-    transform: translate(-5%, 740%);
+    transform: translate(-30%, 350%);
     z-index: 1;
 }
 
@@ -191,7 +210,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 1260%);
+    transform: translate(-50%, 1700%);
 }
 
 /*/////////////////////////////////////*/
@@ -291,7 +310,7 @@
 .potato-title {
     position: absolute;
     top: -20%;
-    left: 2%;
+    left: -9%;
     /* transform: translate(-50%, -320%); */
 }
 
@@ -307,33 +326,64 @@
     -webkit-text-stroke: 0.1px #4C0B13;
     z-index: 1;
     position: absolute;
-    top: -20%;
-    left: -30%;
+    top: 20%;
+    left: -15%;
     font-size: 15px;
 }
 
+.heading-three {
+    left: -18%; 
+}
 
+.heading-four-potato {
+    left: -12%; 
+}
 
 /*///////////////////////////////// Paragraph Text ////////////////////////////*/
 
 .details-potato p,
+.details-potato h2,
 .type-potato p,
 .type-two p,
-.credit p {
+.credit p,
+.play p {
     color: #1E1E1E;
     font-family: Overlock;
     font-weight: 900;
+}
+
+.play p {
+    width: 600px;
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 14%;
+    left: 10%;
+    z-index: 1;
+    /* transform: translate(-90%, -28%); */
 
 }
 
 
-.details-potato p {
-    width: 340px;
-    font-size: 20px;
+.details-potato h2 {
+    width: 600px;
+    font-size: 35px;
     line-height: 32px;
     letter-spacing: 2px;
     position: absolute;
-    top: 0%;
+    top: -70%;
+    left: 5%;
+    z-index: 1;
+}
+
+.details-potato p {
+    width: 600px;
+    font-size: 25px;
+    line-height: 32px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: -55%;
     left: 5%;
     z-index: 1;
     /* transform: translate(-90%, -28%); */
@@ -342,11 +392,11 @@
 
 .type-potato p {
     width: 440px;
-    font-size: 18px;
+    font-size: 25px;
     line-height: 28px;
     letter-spacing: 2px;
     position: absolute;
-    top: 0%;
+    top: -100%;
     left: 5%;
     /* transform: translate(-95%, 105%); */
     z-index: 1;
@@ -355,7 +405,7 @@
 
 .type-two p {
     width: 440px;
-    font-size: 18px;
+    font-size: 25px;
     line-height: 28px;
     letter-spacing: 2px;
     position: absolute;
@@ -367,11 +417,11 @@
 
 .credit p {
     width: 440px;
-    font-size: 16px;
+    font-size: 25px;
     line-height: 32px;
     letter-spacing: 2px;
     position: absolute;
-    top: -25%;
+    top: -385%;
     left: 5%;
     /* transform: translate(-42%, 420%); */
     z-index: 1;
@@ -409,11 +459,11 @@ footer.section p {
 
 
 .mc-overview {
-    width: 475px;
-    height: 475px;
+    width: 775px;
+    height: 675px;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: -750%;
+    left: 155%;
     overflow: hidden;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
@@ -459,94 +509,94 @@ footer.section p {
 }
 
 .potato-menu-one img {
-    width: 350px;
-    height: 250px;
+    width: 470px;
+    height: 320px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-110%, 310%);
+    top: 10%;
+    left: 70%;
+    /* transform: translate(-110%, 310%); */
 }
 
 .potato-menu-two img {
-    width: 350px;
-    height: 250px;
+    width: 470px;
+    height: 320px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(10%, 310%);
+    top: 10%;
+    left: 42%;
+    /* transform: translate(10%, 310%); */
 }
 
 
 .potato-sprites img {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-150%, 370%);
+    top: 55%;
+    left: 77%;
+    /* transform: translate(-150%, 370%); */
 }
 
 .potato-sprites-two img {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 370%);
+    top: 55%;
+    left: 40%;
+    /* transform: translate(-50%, 370%); */
 }
 
 .potato-sprites-three img {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(50%, 370%);
+    top: 55%;
+    left: 60%;
+    /* transform: translate(50%, 370%); */
 }
 
 .potato-event-one img {
-    width: 409px;
-    height: 266px;
+    width: 450px;
+    height: auto;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-105%, 610%);
+    top: 200%;
+    left: 45%;
+    /* transform: translate(-105%, 610%); */
 }
 
 .potato-event-two img {
-    width: 409px;
-    height: 266px;
+    width: 450px;
+    height: auto;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(4%, 610%);
+    top: 200%;
+    left: 72%;
+    /* transform: translate(4%, 610%); */
 }
 
 .potato-event-three img {
-    width: 409px;
-    height: 266px;
+    width: 450px;
+    height: auto;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-105%, 715%);
+    top: 1700%;
+    left: 45%;
+    /* transform: translate(-105%, 715%); */
 }
 
 .potato-event-four img {
-    width: 409px;
-    height: 266px;
+    width: 450px;
+    height: auto;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(4%, 715%);
+    top: 1700%;
+    left: 72%;
+    /* transform: translate(4%, 715%); */
 }
 
 .potato-event-five img {
-    width: 409px;
-    height: 266px;
+    width: 450px;
+    height: auto;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-105%, 820%);
+    top: 3200%;
+    left: 72%;
+    /* transform: translate(-105%, 820%); */
 }
 
 /*/////////////////////////////////////*/
@@ -630,4 +680,24 @@ footer.section p {
     object-fit: cover;
     transition: all 0.3s ease-in-out;
     transform: translate(-0%, -0%);
+}
+
+
+/* /////////////////video///////////////// */
+
+
+.box-one {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    /* transform: translate(-190%, 175%); */
+}
+
+.box-one video {
+    width: 800px;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }

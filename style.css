@@ -3,7 +3,7 @@
 .box-outline-outside-wel,
 .box-outline-outside-intro,
 .box-outline-outside-gall {
-    width: 990px;
+    width: 1800px;
     height: 804px;
     background: rgba(98, 91, 92);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -37,7 +37,7 @@
 .box-outline-inside-wel,
 .box-outline-inside-intro,
 .box-outline-inside-gall {
-    width: 962px;
+    width: 1745px;
     height: 780px;
     background: #EDE7DD;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
@@ -219,19 +219,7 @@
 
 /*/////////////////////////////////////*/
 
-.left-curtain {
-    position: fixed;
-    top: 0%;
-    left: 0%;
 
-}
-
-.right-curtain {
-    position: fixed;
-    top: 0%;
-    right: 0%;
-
-}
 
 /*///////////////////////////////// Heading Text ////////////////////////////*/
 

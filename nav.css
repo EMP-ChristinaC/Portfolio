@@ -4,7 +4,19 @@ html {
 
 }
 
+/* .left-curtain {
+    position: fixed;
+    top: 0%;
+    left: 0%;
 
+}
+
+.right-curtain {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+
+} */
 /*///////////////////////// Navigation Overall /////////////////////*/
 
 .nav-home,
@@ -68,7 +80,7 @@ html {
     position: fixed;
     top: 5%;
     left: 50%;
-    transform: translate(-136%);
+    transform: translate(36%);
 }
 
 .nav-about:hover {
@@ -85,7 +97,7 @@ html {
     position: fixed;
     top: 5%;
     left: 50%;
-    transform: translate(36%);
+    transform: translate(135%);
 }
 
 .nav-contact:hover {
@@ -102,7 +114,7 @@ html {
     position: fixed;
     top: 5%;
     left: 50%;
-    transform: translate(135%);
+    transform: translate(-136%);
 }
 
 .nav-projects:hover {
@@ -116,7 +128,6 @@ html {
 
 /*///////////////////////////////// Nav Decor ////////////////////////////*/
 .nav-background {
-
     position: fixed;
     top: 9%;
     left: 50%;
@@ -129,7 +140,7 @@ html {
 /*////////////////////////////// Project Arrow Button ///////////////////////*/
 
 
-.side-button-right {
+/* .side-button-right {
     top: 50%;
     left: 50%;
     cursor: pointer;
@@ -143,7 +154,7 @@ html {
     left: 50%;
     cursor: pointer;
     transform: translate(-770%, -100%);
-}
+} */
 
 
 /*///////////////////////////////// Button Decor ////////////////////////////*/
@@ -156,7 +167,7 @@ a:hover {
 
 .type-potato a,
 .type-potato-phone-two a,
-.type-two a,
+.type-smash a,
 .credit a {
     text-decoration: underline;
     color: black;
@@ -164,7 +175,7 @@ a:hover {
 
 .type-potato a:hover,
 .type-potato-phone-two a:hover,
-.type-two a:hover,
+.type-smash a:hover,
 .credit a:hover {
     text-decoration: underline;
     color: #780F2E;
