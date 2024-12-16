@@ -1,0 +1,460 @@
+/*///////////////////////////////// @Media Index ////////////////////////////*/
+
+
+
+/* //////////////////////////// Most Mobile devices ////////////////////////    */
+@media screen and (max-width: 480px) {
+
+
+
+    /* .home-mc::before {
+        width: 1090px;
+        height: 5300px;
+    } */
+
+    .left-curtain {
+        display: none;
+
+    }
+
+    .right-curtain {
+        display: none;
+    }
+
+
+    /*///////////////////////////////// Nav Decor ////////////////////////////*/
+    .nav-background {
+        width: 1150px;
+        height: auto;
+        transform: translate(-50%, -95%);
+
+    }
+
+    /*///////////////////////// Navigation Overall /////////////////////*/
+    .nav-home,
+    .nav-about,
+    .nav-contact,
+    .nav-projects {
+        width: 210px;
+        height: 90px;
+        font-size: 30px;
+        line-height: 80px;
+
+    }
+
+    .current {
+        height: 120px;
+    }
+
+    /*///////////////////////// Nav Home //////////////////////////*/
+    .nav-home {
+        transform: translate(-235.5%, -20px);
+    }
+
+    .nav-home:hover {
+        height: 90px;
+    }
+
+    /*///////////////////////////// Nav About /////////////////////////*/
+    .nav-about {
+        transform: translate(-136%, -20px);
+    }
+
+    .nav-about:hover {
+        height: 90px;
+    }
+
+    /*/////////////////////////////////// Nav Contact ///////////////////////*/
+    .nav-contact {
+        transform: translate(36%, -20px);
+    }
+
+    .nav-contact:hover {
+        height: 90px;
+    }
+
+    /*///////////////////////////////// Nav Projects ////////////////////////////*/
+    .nav-projects {
+        transform: translate(135%, -20px);
+    }
+
+    .nav-projects:hover {
+        height: 16%;
+        max-height: 90px;
+    }
+
+    /*////////////////////////// Box Outline Outside ////////////////////////*/
+
+    .box-outline-outside-mc-overview {
+        width: 1000px;
+        height: 1730px;
+        left: 11%;
+        transform: translate(0%, -6%);
+    }
+
+    .box-outline-outside-play {
+        width: 1000px;
+        height: 1400px;
+        left: 11%;
+        transform: translate(0%, 132%);
+    }
+
+    .box-outline-outside-mc-gallery {
+        width: 1000px;
+        height: 1700px;
+        left: 11%;
+        transform: translate(0%, 180%);
+    }
+
+
+    .box-outline-outside-mc-gallery-two {
+        width: 1000px;
+        height: 1400px;
+        left: 11%;
+        transform: translate(0%, 192%);
+    }
+
+    /*////////////////////////// Box Outline Inside ////////////////////////*/
+
+
+    .box-outline-inside-mc-overview {
+        width: 970px;
+        height: 1680px;
+    }
+
+    .box-outline-inside-play {
+        width: 970px;
+        height: 1350px;
+    }
+
+    .box-outline-inside-mc-gallery {
+        width: 970px;
+        height: 1650px;
+    }
+
+    .box-outline-inside-mc-gallery-two {
+        width: 970px;
+        height: 1360px;
+    }
+
+
+    /*////////////////////////////////// Footer Outline //////////////////////////*/
+    .box-outline-outside-foot {
+        width: 1090px;
+        height: 300px;
+    }
+
+    .box-outline-outside-foot {
+        transform: translate(-18%, 2640%);
+
+    }
+
+    /*/////////////////////////////////////*/
+
+    .box-outline-inside-foot {
+        left: 1%;
+        width: 1070px;
+        height: 276px;
+
+    }
+
+    .github {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    .twitter {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    .discord {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    .linkedin {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    .instagram {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+    /*///////////////////////////////// Heading Box ////////////////////////////*/
+    .box-outline-heading-wel {
+        width: 910px;
+        height: 195px;
+        top: 100%;
+        left: 50%;
+    }
+
+    .box-outline-heading-play {
+        height: 120px;
+        top: 83%;
+    }
+
+    .box-outline-heading-two,
+    .box-outline-heading-three,
+    .box-outline-heading-four,
+    .box-outline-heading-five {
+        height: 90px;
+        width: 770px;
+        left: 60%;
+    }
+
+    .box-outline-heading-two {
+        top: 3%;
+        left: 10%;
+    }
+
+    .box-outline-heading-three {
+        top: 50%;
+        left: 10%;
+    }
+
+    .box-outline-heading-four {
+        top: 3%;
+        left: 10%;
+    }
+    .box-outline-heading-five {
+        top: 40%;
+        left: 10%;
+    }
+
+
+    /*////////////////////////////// Paragraph Outline ////////////////////////////*/
+
+    /*///////////////////////////////// Heading Text ////////////////////////////*/
+
+    .mc-title,
+    .play-title {
+        line-height: 90px;
+        width: 900px;
+        font-size: 32px;
+        text-align: center;
+        -webkit-text-stroke: 1px #4C0B13;
+        top: -20%;
+        left: 0%;
+    }
+
+    .heading-two,
+    .heading-three,
+    .heading-four,
+    .heading-five {
+        line-height: 90px;
+        width: 800px;
+        font-size: 20px;
+        -webkit-text-stroke: 1px #4C0B13;
+        top: -30%;
+        left: -2%;
+    }
+
+
+    /*///////////////////////////////// Paragraph Text ////////////////////////////*/
+
+    .details p {
+        width: 850px;
+        z-index: 1;
+        font-size: 40px;
+        line-height: 55px;
+        top: -195%;
+        left: 60%;
+    }
+
+    .type p {
+        width: 550px;
+        z-index: 1;
+        font-size: 40px;
+        line-height: 55px;
+        top: -280%;
+        left: 60%;
+    }
+
+    .credit p {
+        width: 760px;
+        z-index: 1;
+        font-size: 35px;
+        line-height: 55px;
+        top: -200%;
+        left: 30%;
+    }
+
+    .play p {
+        width: 850px;
+        z-index: 1;
+        font-size: 40px;
+        line-height: 55px;
+        top: 13%;
+        left: 10%;
+    }
+
+    footer.section p {
+        font-size: 25px;
+        width: 900px;
+        transform: translate(-20%, 0%);
+    }
+    /*/////////////////////////// Images /////////////////////////////////*/
+ .videoscreen {
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    /* transform: translate(-190%, 175%); */
+}
+
+    .mc-overview {
+        width: 750px;
+        height: auto;
+        top: 75%;
+        left: 17%;
+        box-shadow: 0px 0px 0px;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .mc-box-one img {
+        width: 500px;
+        height: auto;
+        top: 32%;
+        left: 33%;
+    }
+
+    .mc-box-two img {
+        width: 500px;
+        height: auto;
+        top: 10%;
+        left: 5%;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .mc-handbook img {
+        width: 640px;
+        height: auto;
+        top: 54%;
+        left: 5%;
+    }
+
+    .mc-handbook-two img {
+        width: 640px;
+        height: auto;
+        top: 76%;
+        left: 33%;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .mc-card img {
+        width: 290px;
+        height: auto;
+        top: 150%;
+        left: -5%;
+    }
+
+    .mc-card-two img {
+        width: 290px;
+        height: auto;
+        top: 600%;
+        left: 28%;
+    }
+
+    .mc-card-three img {
+        width: 290px;
+        height: auto;
+        top: 1050%;
+        left: -5%;
+    }
+
+    .mc-card-four img {
+        width: 290px;
+        height: auto;
+        transform: translate(125%, 985%);
+    }
+
+    /*/////////////////////////////////////*/
+
+    .mc-item img {
+        width: 280px;
+        height: 280px;
+        transform: translate(70%, 1600%);
+    }
+
+    .mc-item-two img {
+        width: 280px;
+        height: 280px;
+        transform: translate(-30%, 1600%);
+    }
+
+    .mc-item-three img {
+        width: 280px;
+        height: 280px;
+        transform: translate(170%, 1600%);
+    }
+
+
+    /*///////////////////////////////// Button ////////////////////////////*/
+
+    .side-button-right {
+        display: none;
+    }
+
+    .side-button-left {
+        display: none;
+    }
+
+    /*///////////////////////////////// Decor ////////////////////////////*/
+
+    .dia-left-mc img,
+    .dia-left-two-mc img,
+    .dia-left-three-mc img {
+        width: 200px;
+        height: auto;
+        top: 0%;
+        left: 1%;
+    }
+
+    .dia-right-three-mc img,
+    .dia-right-two-mc img,
+    .dia-right-mc img {
+        width: 200px;
+        height: auto;
+        top: 0%;
+        left: 79%;
+    }
+
+
+    .dia-left-mc img {
+        transform: translate(0%, 467%);
+    }
+
+    .dia-left-two-mc img {
+        transform: translate(0%, 457%);
+    }
+
+    .dia-left-three-mc img {
+        transform: translate(0%, 360%);
+    }
+
+    .dia-right-mc img {
+        transform: translate(0%, 7%);
+    }
+
+    .dia-right-two-mc img {
+        transform: translate(0%, 7%);
+    }
+
+    .dia-right-three-mc img {
+        transform: translate(0%, 7%);
+    }
+
+
+
+}

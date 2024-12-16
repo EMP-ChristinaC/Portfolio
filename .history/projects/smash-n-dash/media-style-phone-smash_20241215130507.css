@@ -1,0 +1,482 @@
+/*///////////////////////////////// @Media Index ////////////////////////////*/
+
+
+
+/* //////////////////////////// Most Mobile devices ////////////////////////    */
+@media screen and (max-width: 480px) {
+
+
+    /* .home-smash::before {
+        width: 1090px;
+        height: 6100px;
+    } */
+
+    .left-curtain {
+        display: none;
+
+    }
+
+    .right-curtain {
+        display: none;
+    }
+
+
+    /*///////////////////////////////// Nav Decor ////////////////////////////*/
+    .nav-background {
+        width: 1150px;
+        height: auto;
+        transform: translate(-50%, -95%);
+
+    }
+
+    /*///////////////////////// Navigation Overall /////////////////////*/
+    .nav-home,
+    .nav-about,
+    .nav-contact,
+    .nav-projects {
+        width: 210px;
+        height: 90px;
+        font-size: 30px;
+        line-height: 80px;
+
+    }
+
+    .current {
+        height: 120px;
+    }
+
+    /*///////////////////////// Nav Home //////////////////////////*/
+    .nav-home {
+        transform: translate(-235.5%, -20px);
+    }
+
+    .nav-home:hover {
+        height: 90px;
+    }
+
+    /*///////////////////////////// Nav About /////////////////////////*/
+    .nav-about {
+        transform: translate(-136%, -20px);
+    }
+
+    .nav-about:hover {
+        height: 90px;
+    }
+
+    /*/////////////////////////////////// Nav Contact ///////////////////////*/
+    .nav-contact {
+        transform: translate(36%, -20px);
+    }
+
+    .nav-contact:hover {
+        height: 90px;
+    }
+
+
+    /*///////////////////////////// Nav Projects //////////////////////////*/
+    .nav-projects {
+        transform: translate(135%, -20px);
+    }
+
+    .nav-projects:hover {
+        height: 16%;
+        max-height: 90px;
+    }
+
+    /*/////////////////////////////// Box Outline Outside ////////////////////////////*/
+
+    .box-outline-outside-overview {
+        width: 1000px;
+        height: 1730px;
+        left: 11%;
+        transform: translate(0%, -7%);
+    }
+
+    .box-outline-outside-potato-play {
+        width: 1000px;
+        height: 2100px;
+        left: 11%;
+        transform: translate(0%, 80%);
+    }
+
+    .box-outline-outside-gallery {
+        width: 1000px;
+        height: 1835px;
+        left: 11%;
+        transform: translate(0%, 226%);
+    }
+
+    .box-outline-outside-gallery-two {
+        width: 1000px;
+        height: 2045px;
+        left: 11%;
+        transform: translate(0%, 255%);
+    }
+
+    /*///////////////////////////// Box Outline Inside ////////////////////////////*/
+
+    .box-outline-inside-overview {
+        width: 970px;
+        height: 1600px;
+    }
+
+    .box-outline-inside-potato-play {
+        width: 970px;
+        height: 2050px;
+    }
+
+    .box-outline-inside-gallery {
+        width: 970px;
+        height: 1780px;
+    }
+
+    .box-outline-inside-gallery-two {
+        width: 970px;
+        height: 2000px;
+        top: 20px;
+    }
+
+
+    /*////////////////////////////////// Footer Outline //////////////////////////*/
+    .box-outline-outside-foot {
+        width: 1090px;
+        height: 300px;
+    }
+
+    .box-outline-outside-foot {
+        transform: translate(-18%, 2620%);
+
+    }
+
+    /*/////////////////////////////////////*/
+
+    .box-outline-inside-foot {
+        left: 1%;
+        width: 1070px;
+        height: 276px;
+
+    }
+
+    .github {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    .twitter {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    .discord {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    .linkedin {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    .instagram {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+    /*///////////////////////////////// Heading Box ////////////////////////////*/
+
+    .box-outline-heading-wel,
+    .box-outline-heading-play {
+        width: 910px;
+        height: 135px;
+        transform: translate(-12%, -45%);
+    }
+
+    .box-outline-heading-play {
+        top: 62%;
+    }
+
+    .box-outline-heading-two,
+    .box-outline-heading-five,
+    .box-outline-heading-four {
+        height: 90px;
+        width: 770px;
+    }
+
+    .box-outline-heading-two {
+        top: 3%;
+        left: 10%;
+    }
+
+    .box-outline-heading-three {
+        top: 50%;
+        left: 10%;
+    }
+
+    .box-outline-heading-four {
+        top: 3%;
+        left: 10%;
+    }
+
+    /*////////////////////////////// Paragraph Outline ////////////////////////////*/
+
+    /*///////////////////////////////// Heading Text ////////////////////////////*/
+
+    .title,
+    .play-title {
+        line-height: 90px;
+        width: 900px;
+        font-size: 32px;
+        text-align: center;
+        -webkit-text-stroke: 1px #4C0B13;
+        top: -20%;
+        left: 0%;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .heading-two,
+    .heading-three,
+    .heading-four,
+    .heading-five {
+        line-height: 90px;
+        width: 800px;
+        font-size: 23px;
+        -webkit-text-stroke: 1px #4C0B13;
+        top: -30%;
+        left: -2%;
+    }
+
+    /*///////////////////////////////// Paragraph Text ////////////////////////////*/
+
+    .details p {
+        width: 850px;
+        z-index: 1;
+        font-size: 40px;
+        line-height: 55px;
+        top: -195%;
+        left: 60%;
+    }
+
+    .type-smash p {
+        width: 550px;
+        z-index: 1;
+        font-size: 40px;
+        line-height: 55px;
+        top: -280%;
+        left: 60%;
+    }
+
+    .type-two p {
+        width: 250px;
+        z-index: 1;
+        font-size: 40px;
+        line-height: 55px;
+        top: -195%;
+        left: 60%;
+    }
+
+    .credit p {
+        width: 660px;
+        z-index: 1;
+        font-size: 35px;
+        line-height: 55px;
+        top: -240%;
+        left: 50%;
+    }
+
+    .play p {
+        width: 850px;
+        z-index: 1;
+        font-size: 40px;
+        line-height: 55px;
+        top: 10%;
+        left: 10%;
+    }
+
+    footer.section p {
+        font-size: 25px;
+        width: 900px;
+        transform: translate(-20%, 0%);
+    }
+    /*///////////////////////////////// items /////////////////////////////////////*/
+
+ 
+.videoscreen {
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    top: 73%;
+    left: 10%;
+    /* transform: translate(-190%, 175%); */
+}
+
+    /*/////////////////////////////////////*/
+
+    .overview {
+        width: 860px;
+        height: auto;
+        top: 10%;
+        left: 10%;
+        box-shadow: 0px 0px 0px;
+    }
+
+    .box-one img {
+        width: 620px;
+        height: auto;
+        top: 10%;
+        left: 10%;
+    }
+
+    .box-two img {
+        width: 620px;
+        height: auto;
+        top: 10%;
+        left: 10%;
+    }
+
+    .handbook img {
+        width: 620px;
+        height: auto;
+        top: 10%;
+        left: 10%;
+    }
+
+    .handbook-two img {
+        width: 620px;
+        height: auto;
+        top: 10%;
+        left: 10%;
+    }
+
+    .card img {
+        width: 220px;
+        height: auto;
+        top: 10%;
+        left: 10%;
+    }
+
+    .card-two img {
+        width: 220px;
+        height: auto;
+        top: 10%;
+        left: 10%;
+    }
+
+    .card-three img {
+        width: 220px;
+        height: auto;
+        top: 10%;
+        left: 10%;
+    }
+
+    .card-four img {
+        width: 220px;
+        height: auto;
+        top: 10%;
+        left: 10%;
+    }
+
+    .item img {
+        width: 520px;
+        height: auto;
+        top: 10%;
+        left: 10%;
+    }
+
+    .item-two img {
+        width: 320px;
+        height: auto;
+        top: 10%;
+        left: 10%;
+    }
+
+    .item-three img {
+        width: 320px;
+        height: auto;
+        top: 10%;
+        left: 10%;
+    }
+
+    .item-four img {
+        width: 320px;
+        height: auto;
+        top: 10%;
+        left: 0%;
+    }
+
+    .item-five img {
+        width: 380px;
+        height: auto;
+        top: 10%;
+        left: 0%;
+    }
+
+    .item-six img {
+        width: 240px;
+        height: auto;
+        top: 10%;
+        left: 0%;
+    }
+
+    /*///////////////////////////////// Button ////////////////////////////*/
+
+    
+    .side-button-right {
+        display: none;
+    }
+
+    .side-button-left {
+        display: none;
+    }
+
+    /*///////////////////////////////// Decor ////////////////////////////*/
+
+ 
+    .dia-left img,
+    .dia-left-two img,
+    .dia-left-three img {
+        width: 200px;
+        height: auto;
+        top: 0%;
+        left: 1%;
+    }
+
+    .dia-right-three img,
+    .dia-right-two img,
+    .dia-right img {
+        width: 200px;
+        height: auto;
+        top: 0%;
+        left: 79%;
+    }
+
+
+    .dia-left img {
+        transform: translate(0%, 440%);
+    }
+
+    .dia-left-two img {
+        transform: translate(0%, 500%);
+    }
+
+    .dia-left-three img {
+        transform: translate(0%, 570%);
+    }
+
+    .dia-right img {
+        transform: translate(0%, 7%);
+    }
+
+    .dia-right-two img {
+        transform: translate(0%, 7%);
+    }
+
+    .dia-right-three img {
+        transform: translate(0%, 7%);
+    }
+
+}

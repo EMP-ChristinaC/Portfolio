@@ -1,0 +1,482 @@
+/*///////////////////////////////// @Media Index ////////////////////////////*/
+
+
+
+/* //////////////////////////// Most Mobile devices ////////////////////////    */
+@media screen and (max-width: 480px) {
+
+
+    /* .home-potato::before {
+        width: 1090px;
+        height: 6240px;
+    } */
+
+    .left-curtain {
+        display: none;
+
+    }
+
+    .right-curtain {
+        display: none;
+    }
+
+
+    /*///////////////////////////////// Nav Decor ////////////////////////////*/
+    .nav-background {
+        width: 1150px;
+        height: auto;
+        transform: translate(-50%, -95%);
+
+    }
+
+    /*///////////////////////// Navigation Overall /////////////////////*/
+    .nav-home,
+    .nav-about,
+    .nav-contact,
+    .nav-projects {
+        width: 210px;
+        height: 90px;
+        font-size: 30px;
+        line-height: 80px;
+
+    }
+
+    .current {
+        height: 120px;
+    }
+
+    /*///////////////////////// Nav Home //////////////////////////*/
+    .nav-home {
+        transform: translate(-235.5%, -20px);
+    }
+
+    .nav-home:hover {
+        height: 90px;
+    }
+
+    /*///////////////////////////// Nav About /////////////////////////*/
+    .nav-about {
+        transform: translate(-136%, -20px);
+    }
+
+    .nav-about:hover {
+        height: 90px;
+    }
+
+    /*/////////////////////////////////// Nav Contact ///////////////////////*/
+    .nav-contact {
+        transform: translate(36%, -20px);
+    }
+
+    .nav-contact:hover {
+        height: 90px;
+    }
+
+
+    /*///////////////////////////// Nav Projects //////////////////////////*/
+    .nav-projects {
+        transform: translate(135%, -20px);
+    }
+
+    .nav-projects:hover {
+        height: 16%;
+        max-height: 90px;
+    }
+
+    /*/////////////////////////////// Box Outline Outside ////////////////////////////*/
+
+    .box-outline-outside-potato-overview {
+        width: 1000px;
+        height: 1730px;
+        left: 11%;
+        transform: translate(0%, -7%);
+    }
+
+    .box-outline-outside-potato-play {
+        width: 1000px;
+        height: 2100px;
+        left: 11%;
+        transform: translate(0%, 80%);
+    }
+
+    
+    .box-outline-outside-potato-progress {
+        width: 1000px;
+        height: 1700px;
+        left: 11%;
+        transform: translate(0%, 226%);
+    }
+
+    .box-outline-outside-potato {
+        width: 1000px;
+        height: 2200px;
+        left: 11%;
+        transform: translate(0%, 255%);
+    }
+
+
+
+    /*///////////////////////////// Box Outline Inside ////////////////////////////*/
+
+    .box-outline-inside-potato-overview {
+        width: 970px;
+        height: 1680px;
+    }
+
+    .box-outline-inside-potato-play {
+        width: 970px;
+        height: 2050px;
+    }
+
+    .box-outline-inside-potato-progress {
+        width: 970px;
+        height: 1650px;
+    }
+
+    .box-outline-inside-potato {
+        width: 970px;
+        height: 2155px;
+        top: 20px;
+    }
+
+
+    /*////////////////////////////////// Footer Outline //////////////////////////*/
+    .box-outline-outside-foot {
+        width: 1090px;
+        height: 300px;
+    }
+
+    .box-outline-outside-foot {
+        transform: translate(-18%, 2620%);
+
+    }
+
+    /*/////////////////////////////////////*/
+
+    .box-outline-inside-foot {
+        left: 1%;
+        width: 1070px;
+        height: 276px;
+
+    }
+
+    .github {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    .twitter {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    .discord {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    .linkedin {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    .instagram {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+    /*///////////////////////////////// Heading Box ////////////////////////////*/
+
+    .box-outline-heading-potato,
+    .box-outline-heading-play {
+        width: 910px;
+        height: 135px;
+        top: 75%;
+        left: 50%;
+        z-index: 1;
+    }
+
+    .box-outline-heading-play {
+        top: 62%;
+    }
+
+    .box-outline-heading-two-potato,
+    .box-outline-heading-three-potato,
+    .box-outline-heading-four-potato {
+        height: 90px;
+        width: 770px;
+    }
+
+
+    .box-outline-heading-two-potato {
+        top: 3%;
+        left: 10%;
+    }
+
+    .box-outline-heading-three-potato {
+        top: 50%;
+        left: 10%;
+    }
+
+    .box-outline-heading-four-potato {
+        top: 3%;
+        left: 10%;
+    }
+
+    /*////////////////////////////// Paragraph Outline ////////////////////////////*/
+
+    /*/////////////////////////////////////*/
+
+    .box-outline-paragraph-potato {
+        width: 910px;
+        height: 415px;
+        top: 13%;
+        left: 110%;
+    }
+
+    .box-outline-type-potato {
+        width: 690px;
+        height: 305px;
+        top: 12%;
+        left: 82%;
+    }
+
+    .box-outline-credit {
+        width: 870px;
+        height: 130px;
+        top: 27%;
+        left: 60%;
+    }
+
+    /*///////////////////////////////// Heading Text ////////////////////////////*/
+
+    .potato-title,
+    .play-title {
+        line-height: 90px;
+        width: 900px;
+        font-size: 39px;
+        text-align: center;
+        -webkit-text-stroke: 1px #4C0B13;
+        top: -20%;
+        left: 0%;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .heading-two,
+    .heading-three,
+    .heading-four-potato {
+        line-height: 90px;
+        width: 800px;
+        font-size: 23px;
+        -webkit-text-stroke: 1px #4C0B13;
+        top: -30%;
+        left: -2%;
+    }
+
+    /*///////////////////////////////// Paragraph Text ////////////////////////////*/
+
+    .details-potato p {
+        width: 850px;
+        z-index: 1;
+        font-size: 40px;
+        line-height: 55px;
+        top: -5%;
+        left: 5%;
+    }
+
+    .type-potato p {
+        width: 550px;
+        z-index: 1;
+        font-size: 40px;
+        line-height: 55px;
+        top: -6%;
+        left: 5%;
+    }
+
+    .type-two p {
+        width: 250px;
+        z-index: 1;
+        font-size: 40px;
+        line-height: 55px;
+        top: -6%;
+        left: 63%;
+    }
+
+    .credit p {
+        width: 760px;
+        z-index: 1;
+        font-size: 35px;
+        line-height: 55px;
+        top: -20%;
+        left: 3%;
+    }
+
+    .play p {
+        width: 850px;
+        z-index: 1;
+        font-size: 40px;
+        line-height: 55px;
+        top: 10%;
+        left: 10%;
+    }
+
+    footer.section p {
+        font-size: 25px;
+        width: 900px;
+        transform: translate(-20%, 0%);
+    }
+    /*///////////////////////////////// Images /////////////////////////////////////*/
+    .box-one {
+        width: 800px;
+        height: 300px;
+        position: absolute;
+        top: 73%;
+        left: 10%;
+        /* transform: translate(-190%, 175%); */
+    }
+ 
+    /*/////////////////////////////////////*/
+
+    .mc-overview {
+        width: 750px;
+        height: auto;
+        top: 69%;
+        left: 18%;
+        box-shadow: 0px 0px 0px;
+    }
+
+    .potato-menu-one img {
+        width: 520px;
+        height: auto;
+        top: 28%;
+        left: 43%;
+    }
+
+    .potato-menu-two img {
+        width: 520px;
+        height: auto;
+        top: 5%;
+        left: 4%;
+    }
+
+    .potato-sprites img {
+        width: 400px;
+        height: auto;
+        top: 0%;
+        left: 0%;
+    }
+
+    .potato-sprites-two img {
+        width: 400px;
+        height: auto;
+        top: 0%;
+        left: 0%;
+    }
+
+    .potato-sprites-three img {
+        width: 400px;
+        height: auto;
+        top: 0%;
+        left: 0%;
+    }
+
+    .potato-event-one img {
+        width: 590px;
+        height: auto;
+        top: 0%;
+        left: 0%;
+    }
+
+    .potato-event-two img {
+        width: 590px;
+        height: auto;
+        top: 0%;
+        left: 0%;
+    }
+
+    .potato-event-three img {
+        width: 590px;
+        height: auto;
+        top: 0%;
+        left: 0%;
+    }
+
+    .potato-event-four img {
+        width: 590px;
+        height: auto;
+        top: 0%;
+        left: 0%;
+    }
+
+    .potato-event-five img {
+        width: 590px;
+        height: auto;
+        top: 0%;
+        left: 0%;
+    }
+
+  
+
+    /*///////////////////////////////// Button ////////////////////////////*/
+
+    
+    .side-button-right {
+        display: none;
+    }
+
+    .side-button-left {
+        display: none;
+    }
+
+    /*///////////////////////////////// Decor ////////////////////////////*/
+
+ 
+    .dia-left-potato img,
+    .dia-left-two-potato img,
+    .dia-left-three-potato img {
+        width: 200px;
+        height: auto;
+        top: 0%;
+        left: 1%;
+    }
+
+    .dia-right-three-potato img,
+    .dia-right-two-potato img,
+    .dia-right-potato img {
+        width: 200px;
+        height: auto;
+        top: 0%;
+        left: 79%;
+    }
+
+
+    .dia-left-potato img {
+        transform: translate(0%, 467%);
+    }
+
+    .dia-left-two-potato img {
+        transform: translate(0%, 457%);
+    }
+
+    .dia-left-three-potato img {
+        transform: translate(0%, 622%);
+    }
+
+    .dia-right-potato img {
+        transform: translate(0%, 7%);
+    }
+
+    .dia-right-two-potato img {
+        transform: translate(0%, 7%);
+    }
+
+    .dia-right-three-potato img {
+        transform: translate(0%, 7%);
+    }
+
+}

@@ -106,7 +106,8 @@
 
 
 
-.box-outline-heading-potato {
+.box-outline-heading-potato,
+.box-outline-heading-play {
     width: 1700px;
     height: 20px;
     background: #E7DECD;
@@ -115,7 +116,8 @@
     z-index: 1;
 }
 
-.box-outline-heading-potato {
+.box-outline-heading-potato,
+.box-outline-heading-play {
     position: absolute;
     top: 28%;
     left: 50%;
@@ -296,7 +298,8 @@
 
 /*///////////////////////////////// Heading Text ////////////////////////////*/
 
-.potato-title {
+.potato-title,
+.play-title {
     width: 827px;
     text-align: center;
     color: #FABA84;
@@ -307,7 +310,8 @@
     z-index: 1;
 }
 
-.potato-title {
+.potato-title,
+.play-title {
     position: absolute;
     top: -20%;
     left: -9%;
@@ -462,8 +466,8 @@ footer.section p {
     width: 775px;
     height: 675px;
     position: absolute;
-    top: -750%;
-    left: 155%;
+    top: 20%;
+    left: 55%;
     overflow: hidden;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;

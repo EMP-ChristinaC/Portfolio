@@ -89,15 +89,21 @@
         width: 1000px;
         height: 1730px;
         left: 11%;
-        transform: translate(0%, -7%);
+        transform: translate(0%, -6%);
     }
 
+    .box-outline-outside-play {
+        width: 1000px;
+        height: 1400px;
+        left: 11%;
+        transform: translate(0%, 120%);
+    }
 
     .box-outline-outside-mc-gallery {
         width: 1000px;
         height: 1700px;
         left: 11%;
-        transform: translate(0%, 97%);
+        transform: translate(0%, 184%);
     }
 
 
@@ -105,7 +111,7 @@
         width: 1000px;
         height: 1400px;
         left: 11%;
-        transform: translate(0%, 242%);
+        transform: translate(0%, 348%);
     }
 
     /*////////////////////////// Box Outline Inside ////////////////////////*/
@@ -114,6 +120,11 @@
     .box-outline-inside-mc-overview {
         width: 970px;
         height: 1680px;
+    }
+
+    .box-outline-inside-play {
+        width: 970px;
+        height: 1350px;
     }
 
     .box-outline-inside-mc-gallery {
@@ -134,7 +145,7 @@
     }
 
     .box-outline-outside-foot {
-        transform: translate(-18%, 1605%);
+        transform: translate(-18%, 2100%);
 
     }
 
@@ -170,11 +181,25 @@
         height: 85px;
         border-radius: 40px;
     }
+
+    .instagram {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
     /*///////////////////////////////// Heading Box ////////////////////////////*/
     .box-outline-heading-wel {
         width: 910px;
         height: 195px;
-        transform: translate(-12%, -30%);
+        top: 107%;
+        left: 50%;
+    }
+
+    .box-outline-heading-play {
+        width: 910px;
+        height: 120px;
+        top: 83%;
+        left: 50%;
     }
 
     .box-outline-heading-two,
@@ -186,51 +211,35 @@
         left: 60%;
     }
 
-
     .box-outline-heading-two {
-        transform: translate(-12%, 1900%);
+        top: 3%;
+        left: 10%;
     }
 
     .box-outline-heading-three {
-        transform: translate(-12%, 2870%);
+        top: 54%;
+        left: 10%;
     }
 
     .box-outline-heading-four {
-        transform: translate(-12%, 3820%);
+        top: 3%;
+        left: 10%;
     }
-
     .box-outline-heading-five {
-        transform: translate(-12%, 4860%);
+        top: 68%;
+        left: 10%;
     }
 
 
     /*////////////////////////////// Paragraph Outline ////////////////////////////*/
 
-
-    .box-outline-paragraph-mc {
-        width: 910px;
-        height: 380px;
-        transform: translate(-12%, 40%);
-    }
-
-    .box-outline-type-mc {
-        width: 600px;
-        height: 305px;
-        transform: translate(-18%, 180%);
-    }
-
-    .box-outline-credit {
-        width: 780px;
-        height: 70px;
-        transform: translate(0.5%, 1260%);
-    }
-
     /*///////////////////////////////// Heading Text ////////////////////////////*/
 
-    .mc-title {
+    .mc-title,
+    .play-title {
         line-height: 90px;
         width: 900px;
-        font-size: 39px;
+        font-size: 32px;
         text-align: center;
         -webkit-text-stroke: 1px #4C0B13;
         top: -20%;
@@ -245,7 +254,7 @@
         width: 800px;
         font-size: 20px;
         -webkit-text-stroke: 1px #4C0B13;
-        top: -25%;
+        top: -30%;
         left: -2%;
     }
 
@@ -257,26 +266,35 @@
         z-index: 1;
         font-size: 40px;
         line-height: 55px;
-        top: -3%;
-        left: 5%;
+        top: -135%;
+        left: 90%;
     }
 
     .type p {
-        width: 850px;
+        width: 550px;
         z-index: 1;
         font-size: 40px;
         line-height: 55px;
-        top: -6%;
-        left: 5%;
+        top: -220%;
+        left: 90%;
     }
 
     .credit p {
-        width: 850px;
+        width: 560px;
         z-index: 1;
         font-size: 40px;
         line-height: 55px;
-        top: -40%;
-        left: 5%;
+        top: -470%;
+        left: 85%;
+    }
+
+    .play p {
+        width: 800px;
+        z-index: 1;
+        font-size: 40px;
+        line-height: 55px;
+        top: 13%;
+        left: 10%;
     }
 
     footer.section p {
@@ -285,11 +303,20 @@
         transform: translate(-20%, 0%);
     }
     /*/////////////////////////// Images /////////////////////////////////*/
+ .videoscreen {
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    top: 63%;
+    left: 10%;
+    /* transform: translate(-190%, 175%); */
+}
 
     .mc-overview {
         width: 750px;
         height: auto;
-        transform: translate(-5%, 172%);
+        top: 65%;
+        left: 17%;
         box-shadow: 0px 0px 0px;
     }
 
@@ -298,13 +325,15 @@
     .mc-box-one img {
         width: 500px;
         height: auto;
-        transform: translate(-20%, 520%);
+        top: 10%;
+        left: 4%;
     }
 
     .mc-box-two img {
         width: 500px;
         height: auto;
-        transform: translate(60%, 585%);
+        top: 31%;
+        left: 46%;
     }
 
     /*/////////////////////////////////////*/
@@ -312,13 +341,15 @@
     .mc-handbook img {
         width: 640px;
         height: auto;
-        transform: translate(-20%, 940%);
+        top: 62%;
+        left: 4%;
     }
 
     .mc-handbook-two img {
         width: 640px;
         height: auto;
-        transform: translate(25%, 1045%);
+        top: 80%;
+        left: 32%;
     }
 
     /*/////////////////////////////////////*/
@@ -326,25 +357,29 @@
     .mc-card img {
         width: 290px;
         height: auto;
-        transform: translate(0%, 885%);
+        top: 10%;
+        left: 5%;
     }
 
     .mc-card-two img {
         width: 290px;
         height: auto;
-        transform: translate(125%, 885%);
+        top: 10%;
+        left: 35%;
     }
 
     .mc-card-three img {
         width: 290px;
         height: auto;
-        transform: translate(0%, 985%);
+        top: 39%;
+        left: 35%;
     }
 
     .mc-card-four img {
         width: 290px;
         height: auto;
-        transform: translate(125%, 985%);
+        top: 39%;
+        left: 65%;
     }
 
     /*/////////////////////////////////////*/
@@ -352,19 +387,22 @@
     .mc-item img {
         width: 280px;
         height: 280px;
-        transform: translate(70%, 1600%);
+        top: 77%;
+        left: 5%;
     }
 
     .mc-item-two img {
         width: 280px;
         height: 280px;
-        transform: translate(-30%, 1600%);
+        top: 77%;
+        left: 36%;
     }
 
     .mc-item-three img {
         width: 280px;
         height: 280px;
-        transform: translate(170%, 1600%);
+        top: 77%;
+        left: 67%;
     }
 
 

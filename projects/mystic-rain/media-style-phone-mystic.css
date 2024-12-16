@@ -92,18 +92,25 @@
         transform: translate(0%, -6%);
     }
 
+    .box-outline-outside-play {
+        width: 1000px;
+        height: 1400px;
+        left: 11%;
+        transform: translate(0%, 132%);
+    }
+
     .box-outline-outside-progress {
         width: 1000px;
         height: 1835px;
         left: 11%;
-        transform: translate(0%, 100%);
+        transform: translate(0%, 180%);
     }
 
     .box-outline-outside {
         width: 1000px;
-        height: 2580px;
+        height: 2700px;
         left: 11%;
-        transform: translate(0%, 144%);
+        transform: translate(0%, 192%);
     }
 
     /*///////////////////////////// Box Outline Inside ////////////////////////////*/
@@ -113,6 +120,10 @@
         height: 1860px;
     }
 
+    .box-outline-inside-play {
+        width: 970px;
+        height: 1350px;
+    }
 
     .box-outline-inside-progress {
         width: 970px;
@@ -121,8 +132,8 @@
 
     .box-outline-inside {
         width: 970px;
-        height: 2540px;
-        top: 20px;
+        height: 2650px;
+        top: 1%;
     }
 
 
@@ -133,7 +144,7 @@
     }
 
     .box-outline-outside-foot {
-        transform: translate(-18%, 2105%);
+        transform: translate(-18%, 2640%);
 
     }
 
@@ -169,12 +180,26 @@
         height: 85px;
         border-radius: 40px;
     }
+
+    .instagram {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
     /*///////////////////////////////// Heading Box ////////////////////////////*/
 
-    .box-outline-heading {
+    .box-outline-heading,
+    .box-outline-heading-play {
         width: 910px;
         height: 200px;
-        transform: translate(-12%, -35%);
+        top: 100%;
+        left: 50%;
+    }
+
+    .box-outline-heading-play {
+        height: 120px;
+        top: 83%;
     }
 
     .box-outline-heading-two,
@@ -185,44 +210,34 @@
         left: 60%;
     }
 
-
     .box-outline-heading-two {
-        transform: translate(-12%, 2100%);
+        top: 3%;
+        left: 10%;
     }
 
     .box-outline-heading-three {
-        transform: translate(-12%, 2850%);
+        top: 50%;
+        left: 10%;
     }
 
     .box-outline-heading-four {
-        transform: translate(-12%, 4190%);
+        top: 3%;
+        left: 10%;
+    }
+    .box-outline-heading-five {
+        top: 40%;
+        left: 10%;
     }
 
     /*////////////////////////////// Paragraph Outline ////////////////////////////*/
 
     /*/////////////////////////////////////*/
 
-    .box-outline-paragraph {
-        width: 910px;
-        height: 390px;
-        transform: translate(-12%, 38%);
-    }
-
-    .box-outline-type {
-        width: 800px;
-        height: 305px;
-        transform: translate(-14%, 185%);
-    }
-
-    .box-outline-credit {
-        width: 870px;
-        height: 185px;
-        transform: translate(-10%, 480%);
-    }
 
     /*///////////////////////////////// Heading Text ////////////////////////////*/
 
-    .title {
+    .title,
+    .play-title {
         line-height: 90px;
         width: 900px;
         font-size: 32px;
@@ -231,6 +246,7 @@
         top: -20%;
         left: 0%;
     }
+
 
     /*/////////////////////////////////////*/
 
@@ -252,8 +268,8 @@
         z-index: 1;
         font-size: 40px;
         line-height: 55px;
-        top: -2%;
-        left: 5%;
+        top: -195%;
+        left: 60%;
     }
 
     .type p {
@@ -261,8 +277,8 @@
         z-index: 1;
         font-size: 40px;
         line-height: 55px;
-        top: -6%;
-        left: 5%;
+        top: -280%;
+        left: 60%;
     }
 
     .type-two p {
@@ -270,17 +286,26 @@
         z-index: 1;
         font-size: 40px;
         line-height: 55px;
-        top: -6%;
-        left: 50%;
+        top: -195%;
+        left: 60%;
     }
 
     .credit p {
-        width: 860px;
+        width: 760px;
         z-index: 1;
         font-size: 35px;
         line-height: 55px;
-        top: -15%;
-        left: 4%;
+        top: -200%;
+        left: 30%;
+    }
+
+    .play p {
+        width: 850px;
+        z-index: 1;
+        font-size: 40px;
+        line-height: 55px;
+        top: 13%;
+        left: 10%;
     }
 
     footer.section p {
@@ -290,74 +315,92 @@
     }
     /*///////////////////////////////// Images /////////////////////////////////////*/
 
- 
+ .videoscreen {
+    width: 800px;
+    height: 300px;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    /* transform: translate(-190%, 175%); */
+}
     /*/////////////////////////////////////*/
 
     .overview {
         width: 750px;
         height: auto;
-        transform: translate(-5%, 177%);
+        top: 75%;
+        left: 17%;
         box-shadow: 0px 0px 0px;
     }
 
     .menu-one img {
         width: 620px;
         height: auto;
-        transform: translate(-15%, 540%);
+        top: 32%;
+        left: 33%;
     }
 
     .menu-two img {
         width: 620px;
         height: auto;
-        transform: translate(27%, 650%);
+        top: 10%;
+        left: 5%;
     }
 
     .sprites img {
         width: 620px;
         height: auto;
-        transform: translate(-15%, 753%);
+        top: 54%;
+        left: 5%;
     }
 
     .sprites-three img {
         width: 620px;
         height: auto;
-        transform: translate(27%, 865%);
+        top: 76%;
+        left: 33%;
     }
 
     .image-one img {
         width: 620px;
         height: auto;
-        transform: translate(-15%, 1050%);
+        top: 150%;
+        left: -5%;
     }
 
     .image-two img {
         width: 620px;
         height: auto;
-        transform: translate(27%, 1155%);
+        top: 600%;
+        left: 28%;
     }
 
     .image-three img {
         width: 620px;
         height: auto;
-        transform: translate(-15%, 1260%);
+        top: 1050%;
+        left: -5%;
     }
 
     .image-four img {
         width: 620px;
         height: auto;
-        transform: translate(27%, 1365%);
+        top: 1500%;
+        left: 28%;
     }
 
     .image-five img {
         width: 620px;
         height: auto;
-        transform: translate(-15%, 1479%);
+        top: 1950%;
+        left: -5%;
     }
 
     .image-six img {
         width: 620px;
         height: auto;
-        transform: translate(27%, 1583%);
+        top: 2400%;
+        left: 28%;
     }
 
     /*///////////////////////////////// Button ////////////////////////////*/
