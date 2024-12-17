@@ -1,0 +1,391 @@
+/*///////////////////////////////// @Media Index ////////////////////////////*/
+
+
+
+/* //////////////////////////// Most Mobile devices ////////////////////////    */
+@media screen and (max-width: 480px) {
+
+
+
+    /* .home-liyue::before {
+        width: 1090px;
+        height: 5300px;
+    } */
+    
+    .left-curtain {
+        display: none;
+
+    }
+
+    .right-curtain {
+        display: none;
+    }
+
+
+    /*///////////////////////////////// Nav Decor ////////////////////////////*/
+    .nav-background {
+        width: 1150px;
+        height: auto;
+        transform: translate(-50%, -95%);
+
+    }
+
+    /*///////////////////////// Navigation Overall /////////////////////*/
+    .nav-home,
+    .nav-about,
+    .nav-contact,
+    .nav-projects {
+        width: 210px;
+        height: 90px;
+        font-size: 30px;
+        line-height: 80px;
+
+    }
+
+    .current {
+        height: 120px;
+    }
+
+    /*///////////////////////// Nav Home //////////////////////////*/
+    .nav-home {
+        transform: translate(-235.5%, -20px);
+    }
+
+    .nav-home:hover {
+        height: 90px;
+    }
+
+    /*///////////////////////////// Nav About /////////////////////////*/
+    .nav-about {
+        transform: translate(-136%, -20px);
+    }
+
+    .nav-about:hover {
+        height: 90px;
+    }
+
+    /*/////////////////////////////////// Nav Contact ///////////////////////*/
+    .nav-contact {
+        transform: translate(36%, -20px);
+    }
+
+    .nav-contact:hover {
+        height: 90px;
+    }
+
+    /*///////////////////////////////// Nav Projects ////////////////////////////*/
+    .nav-projects {
+        transform: translate(135%, -20px);
+    }
+
+    .nav-projects:hover {
+        height: 16%;
+        max-height: 90px;
+    }
+
+
+
+    /*///////////////////////// Box Outline Outside ////////////////////////*/
+
+    .box-outline-outside-overview {
+        width: 1000px;
+        height: 1730px;
+        left: 11%;
+        transform: translate(0%, -7%);
+    }
+
+
+    .box-outline-outside-gallery {
+        width: 1000px;
+        height: 1700px;
+        left: 11%;
+        transform: translate(0%, 97%);
+    }
+
+
+    .box-outline-outside-gallery-two {
+        width: 1000px;
+        height: 1400px;
+        left: 11%;
+        transform: translate(0%, 242%);
+    }
+    /*///////////////////////////// Box Outline Inside ////////////////////////////*/
+    .box-outline-inside-overview {
+        width: 970px;
+        height: 1680px;
+    }
+
+    .box-outline-inside-gallery {
+        width: 970px;
+        height: 1650px;
+    }
+
+    .box-outline-inside-gallery-two {
+        width: 970px;
+        height: 1360px;
+    }
+
+    /*////////////////////////////////// Footer Outline //////////////////////////*/
+    .box-outline-outside-foot {
+        width: 1090px;
+        height: 300px;
+    }
+
+    .box-outline-outside-foot {
+        transform: translate(-18%, 1605%);
+
+    }
+
+    /*/////////////////////////////////////*/
+
+    .box-outline-inside-foot {
+        left: 1%;
+        width: 1070px;
+        height: 276px;
+    }
+
+    .github {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    .twitter {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    .discord {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    .linkedin {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    .instagram {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    /*///////////////////////////////// Heading Box ////////////////////////////*/
+    .box-outline-heading-wel {
+        width: 910px;
+        height: 130px;
+        top: 73%;
+        left: 50%;
+    }
+
+    .box-outline-heading-two,
+    .box-outline-heading-three,
+    .box-outline-heading-four,
+    .box-outline-heading-five {
+        height: 90px;
+        width: 770px;
+        left: 60%;
+    }
+
+
+    .box-outline-heading-two {
+        top: 3%;
+        left: 10%;
+    }
+
+    .box-outline-heading-three {
+        top: 3%;
+        left: 10%;
+    }
+
+    .box-outline-heading-four {
+        top: 3%;
+        left: 10%;
+    }
+    .box-outline-heading-five {
+        top: 68%;
+        left: 10%;
+    }
+
+    /*////////////////////////////// Paragraph Outline ////////////////////////////*/
+    
+    /*///////////////////////////////// Heading Text ////////////////////////////*/
+
+    .title {
+        line-height: 90px;
+        width: 900px;
+        font-size: 39px;
+        text-align: center;
+        -webkit-text-stroke: 1px #4C0B13;
+        top: -20%;
+        left: 0%;
+    }
+
+    .heading-two,
+    .heading-three,
+    .heading-four,
+    .heading-five {
+        line-height: 90px;
+        width: 800px;
+        font-size: 23px;
+        -webkit-text-stroke: 1px #4C0B13;
+        top: -30%;
+        left: -2%;
+    }
+
+    /*///////////////////////////////// Paragraph Text ////////////////////////////*/
+
+    .details p {
+        width: 850px;
+        z-index: 1;
+        font-size: 40px;
+        line-height: 55px;
+        top: -175%;
+        left: 55%;
+    }
+
+    .type p {
+        width: 850px;
+        z-index: 1;
+        font-size: 40px;
+        line-height: 55px;
+        top: -240%;
+        left: 55%;
+    }
+
+    .credit p {
+        width: 850px;
+        z-index: 1;
+        font-size: 40px;
+        line-height: 55px;
+        top: -650%;
+        left: 85%;
+    }
+
+    footer.section p {
+        font-size: 25px;
+        width: 900px;
+        transform: translate(-20%, 0%);
+    }
+
+    /*///////////////////////////////// Images /////////////////////////////////////*/
+
+    .overview {
+        width: 900px;
+        height: auto;
+        top: 59%;
+        left: 12%;
+    }
+
+    .overview img {
+        box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);   
+    }
+
+    /*/////////////////////////////////////*/
+
+    .box-one img{
+        width: 600px;
+        height: auto;
+        top: 240%;
+        left: -40%;
+    }
+
+    .box-two img{
+        width: 600px;
+        height: auto;
+        top: 380%;
+        left: -40%;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .handbook {
+        width: 600px;
+        height: 460px;
+        top: 11%;
+        left: 5%;
+    }
+
+    .handbook img{
+        width: 130%;
+        box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);   
+    }
+
+    .box-three img{
+        width: 600px;
+        height: auto;
+        top: 10%;
+        left: 8%;
+    }
+
+    .box-four  {
+        width: 600px;
+        height: auto;
+        top: 10%;
+        left: 8%;
+    }
+    
+
+    /*///////////////////////////////// Button ////////////////////////////*/
+
+    /*/////////////////////////////////////*/
+
+    .side-button-right {
+        display: none;
+    }
+
+    .side-button-left {
+        display: none;
+    }
+
+    /*///////////////////////////////// Decor ////////////////////////////*/
+
+
+    .dia-left img,
+    .dia-left-two img,
+    .dia-left-three img {
+        width: 200px;
+        height: auto;
+        top: 0%;
+        left: 1%;
+    }
+
+    .dia-right-three img,
+    .dia-right-two img,
+    .dia-right img {
+        width: 200px;
+        height: auto;
+        top: 0%;
+        left: 79%;
+    }
+
+
+    .dia-left img {
+        transform: translate(0%, 467%);
+    }
+
+    .dia-left-two img {
+        transform: translate(0%, 457%);
+    }
+
+    .dia-left-three img {
+        transform: translate(0%, 360%);
+    }
+
+    .dia-right img {
+        transform: translate(0%, 7%);
+    }
+
+    .dia-right-two img {
+        transform: translate(0%, 7%);
+    }
+
+    .dia-right-three img {
+        transform: translate(0%, 7%);
+    }
+
+}

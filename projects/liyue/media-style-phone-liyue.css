@@ -105,9 +105,9 @@
 
     .box-outline-outside-gallery-two {
         width: 1000px;
-        height: 1400px;
+        height: 1200px;
         left: 11%;
-        transform: translate(0%, 242%);
+        transform: translate(0%, 282%);
     }
     /*///////////////////////////// Box Outline Inside ////////////////////////////*/
     .box-outline-inside-overview {
@@ -122,7 +122,7 @@
 
     .box-outline-inside-gallery-two {
         width: 970px;
-        height: 1360px;
+        height: 1160px;
     }
 
     /*////////////////////////////////// Footer Outline //////////////////////////*/
@@ -132,7 +132,7 @@
     }
 
     .box-outline-outside-foot {
-        transform: translate(-18%, 1605%);
+        transform: translate(-18%, 1540%);
 
     }
 
@@ -168,11 +168,18 @@
         border-radius: 40px;
     }
 
+    .instagram {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
     /*///////////////////////////////// Heading Box ////////////////////////////*/
     .box-outline-heading-wel {
         width: 910px;
         height: 130px;
-        transform: translate(-12%, -45%);
+        top: 73%;
+        left: 50%;
     }
 
     .box-outline-heading-two,
@@ -186,40 +193,26 @@
 
 
     .box-outline-heading-two {
-        transform: translate(-12%, 1900%);
+        top: 3%;
+        left: 10%;
     }
 
     .box-outline-heading-three {
-        transform: translate(-12%, 2870%);
+        top: 3%;
+        left: 10%;
     }
 
     .box-outline-heading-four {
-        transform: translate(-12%, 3820%);
+        top: 3%;
+        left: 10%;
     }
-
     .box-outline-heading-five {
-        transform: translate(-12%, 4860%);
+        top: 68%;
+        left: 10%;
     }
 
     /*////////////////////////////// Paragraph Outline ////////////////////////////*/
-    .box-outline-paragraph {
-        width: 910px;
-        height: 420px;
-        transform: translate(-12%, 25%);
-    }
-
-    .box-outline-type {
-        width: 600px;
-        height: 305px;
-        transform: translate(-18%, 180%);
-    }
-
-    .box-outline-credit {
-        width: 780px;
-        height: 70px;
-        transform: translate(0.5%, 1260%);
-
-    }
+    
     /*///////////////////////////////// Heading Text ////////////////////////////*/
 
     .title {
@@ -240,7 +233,7 @@
         width: 800px;
         font-size: 23px;
         -webkit-text-stroke: 1px #4C0B13;
-        top: -25%;
+        top: -30%;
         left: -2%;
     }
 
@@ -251,8 +244,8 @@
         z-index: 1;
         font-size: 40px;
         line-height: 55px;
-        top: -5%;
-        left: 5%;
+        top: -175%;
+        left: 55%;
     }
 
     .type p {
@@ -260,17 +253,17 @@
         z-index: 1;
         font-size: 40px;
         line-height: 55px;
-        top: -10%;
-        left: 5%;
+        top: -240%;
+        left: 55%;
     }
 
     .credit p {
-        width: 850px;
+        width: 450px;
         z-index: 1;
         font-size: 40px;
         line-height: 55px;
-        top: -40%;
-        left: 5%;
+        top: -650%;
+        left: 85%;
     }
 
     footer.section p {
@@ -282,9 +275,10 @@
     /*///////////////////////////////// Images /////////////////////////////////////*/
 
     .overview {
-        width: 750px;
+        width: 900px;
         height: auto;
-        transform: translate(-5%, 172%);
+        top: 59%;
+        left: 12%;
     }
 
     .overview img {
@@ -293,16 +287,18 @@
 
     /*/////////////////////////////////////*/
 
-    .box-one img {
+    .box-one img{
         width: 600px;
         height: auto;
-        transform: translate(-20%, 230%);
+        top: 240%;
+        left: -40%;
     }
 
-    .box-two img {
+    .box-two img{
         width: 600px;
         height: auto;
-        transform: translate(103%, 337%);
+        top: 374%;
+        left: -40%;
     }
 
     /*/////////////////////////////////////*/
@@ -310,13 +306,29 @@
     .handbook {
         width: 600px;
         height: 460px;
-        transform: translate(-20%, 610%);
+        top: 11%;
+        left: 5%;
     }
 
     .handbook img{
         width: 130%;
         box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);   
     }
+
+    .box-three img{
+        width: 600px;
+        height: auto;
+        top: 101%;
+        left: -95%;
+    }
+
+    .box-four img {
+        width: 600px;
+        height: auto;
+        top: 230%;
+        left: 18%;
+    }
+    
 
     /*///////////////////////////////// Button ////////////////////////////*/
 

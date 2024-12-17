@@ -170,7 +170,11 @@
         border-radius: 40px;
     }
 
-
+    .instagram {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
     /*///////////////////////////////// Heading Box ////////////////////////////*/
 
 
@@ -238,13 +242,23 @@
         transform: translate(-20%, 60%);
     }
     
+    .image-container-liyue { 
+        transform: translate(94%, 695%); 
+    }
+    
+    .image-container-sniffle { 
+        transform: translate(-20%, 60%);
+    }
+
     .image-container,
     .image-container-two,
     .image-container-three,
     .image-container-four,
     .image-container-five,
     .image-container-six,
-    .image-container-seven {
+    .image-container-seven,
+    .image-container-sniffle,
+    .image-container-liyue {
         width: 400px;
         height: 400px;
     }

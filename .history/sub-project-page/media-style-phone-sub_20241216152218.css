@@ -1,0 +1,335 @@
+/*///////////////////////////////// @Media Index ////////////////////////////*/
+
+
+
+/* //////////////////////////// Most Mobile devices ////////////////////////    */
+@media screen and (max-width: 480px) {
+
+
+    .project::before {
+        width: 1090px;
+        height: 3800px;
+    }
+
+    .left-curtain {
+        display: none;
+
+    }
+
+    .right-curtain {
+        display: none;
+    }
+
+
+    /*///////////////////////////////// Nav Decor ////////////////////////////*/
+    .nav-background {
+        width: 1150px;
+        height: auto;
+        transform: translate(-50%, -95%);
+    }
+
+    /*///////////////////////// Navigation Overall /////////////////////*/
+    .nav-home,
+    .nav-about,
+    .nav-contact,
+    .nav-projects {
+        width: 210px;
+        height: 90px;
+        font-size: 30px;
+        line-height: 80px;
+
+    }
+
+    .current {
+        height: 120px;
+    }
+
+    /*///////////////////////// Nav Home //////////////////////////*/
+    .nav-home {
+        transform: translate(-235.5%, -20px);
+    }
+
+    .nav-home:hover {
+        height: 90px;
+    }
+
+    /*///////////////////////////// Nav About /////////////////////////*/
+    .nav-about {
+        transform: translate(-136%, -20px);
+    }
+
+    .nav-about:hover {
+        height: 90px;
+    }
+
+    /*/////////////////////////////////// Nav Contact ///////////////////////*/
+    .nav-contact {
+        transform: translate(36%, -20px);
+    }
+
+    .nav-contact:hover {
+        height: 90px;
+    }
+
+    /*///////////////////////////////// Nav Projects ////////////////////////////*/
+    .nav-projects {
+        transform: translate(135%, -20px);
+    }
+
+    .nav-projects:hover {
+        height: 16%;
+        max-height: 90px;
+    }
+
+    /*/////////////////////////////// Box Outline Outside ////////////////////////////*/
+
+
+    .box-outline-outside-projects,
+    .box-outline-outside-projects-two {
+        width: 1000px;
+        height: 1600px;
+        left: 11%;
+    }
+
+    .box-outline-outside-projects {
+        transform: translate(-0%, 3%);
+    }
+
+
+    .box-outline-outside-projects-two {
+        transform: translate(-0%, 107%);
+    }
+
+
+    .box-outline-outside-projects-sub-nav {
+        width: 990px;
+        height: 120px;
+        transform: translate(-15%, -95%);
+    }
+
+
+    /*///////////////////////////// Box Outline Inside ////////////////////////////*/
+
+    .box-outline-inside-projects,
+    .box-outline-inside-projects-two {
+        width: 970px;
+        height: 1550px;
+    }
+
+    .box-outline-inside-projects-sub-nav {
+        width: 962px;
+        height: 100px;
+    }
+
+    /*////////////////////////////////// Footer Outline //////////////////////////*/
+
+    .box-outline-outside-foot {
+        width: 1090px;
+        height: 300px;
+    }
+
+    .box-outline-outside-foot {
+        transform: translate(-18%, 1120%);
+    }
+
+    footer.section p {
+        font-size: 25px;
+        width: 900px;
+        transform: translate(-20%, 0%);
+    }
+    /*/////////////////////////////////////*/
+
+    .box-outline-inside-foot {
+        left: 1%;
+        width: 1070px;
+        height: 276px;
+
+    }
+
+    .github {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    .twitter {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    .discord {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    .linkedin {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    .instagram {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+    /*///////////////////////////////// Heading Box ////////////////////////////*/
+
+
+    .box-outline-heading-wel-project,
+    .box-outline-heading-wel-project-two {
+        width: 870px;
+        height: 100px;
+
+    }
+
+    /*/////////////////////////////////////*/
+
+    .box-outline-heading-wel-project {
+        transform: translate(-10%, 100%);
+    }
+
+    .box-outline-heading-wel-project-two {
+        transform: translate(-10%, 1760%);
+    }
+
+    /*//////////////////////////// Paragraph Outline ///////////////////////////*/
+
+    /*///////////////////////////////// Heading Text ////////////////////////////*/
+    .heading-intro-project,
+    .heading-intro-project-two {
+        line-height: 90px;
+        width: 900px;
+        font-size: 39px;
+        text-align: center;
+        -webkit-text-stroke: 1px #4C0B13;
+        top: -50%;
+        left: -3%;
+    }
+
+
+    /*///////////////////////////////// Paragraph Text ////////////////////////////*/
+
+    /*///////////////////////////////// Images /////////////////////////////////////*/
+
+    .image-container { 
+        transform: translate(-20%, 475%);
+    }
+    
+    .image-container-two { 
+        transform: translate(-20%, 475%);
+    }
+    
+    .image-container-three { 
+        transform: translate(94%, 585%);
+    }
+    
+    .image-container-four { 
+        transform: translate(-20%, 585%);
+    }
+    
+    .image-container-five { 
+        transform: translate(-20%, 695%);
+    }
+    
+    .image-container-six { 
+        transform: translate(94%, 475%); 
+    }
+    
+    .image-container-seven { 
+        transform: translate(-20%, 60%);
+    }
+    
+    .image-container-liyue { 
+        transform: translate(94%, 475%); 
+    }
+    
+    .image-container-sniffle { 
+        transform: translate(-20%, 60%);
+    }
+
+    .image-container,
+    .image-container-two,
+    .image-container-three,
+    .image-container-four,
+    .image-container-five,
+    .image-container-six,
+    .image-container-seven,
+    .image-container-sniffle,
+    .image-container-liyue {
+        width: 400px;
+        height: 400px;
+    }
+    
+    /*///////////////////////////////// Button ////////////////////////////*/
+
+    .main,
+    .sub {
+        width: 380px;
+        height: 70px;
+        font-size: 35px;
+        line-height: 70px;
+    }
+
+    .main {
+        transform: translate(-20%, -120%);
+    }
+
+    .sub {
+        transform: translate(100%, -120%);
+
+    }
+
+    /*///////////////////////////////// Decor ////////////////////////////*/
+
+    .dia-left-projects img,
+    .dia-left-projects-two img {
+        width: 200px;
+        height: auto;
+        top: 0%;
+        left: 1%;
+    }
+
+    .dia-right-projects img,
+    .dia-right-projects-two img {
+        width: 200px;
+        height: auto;
+        top: 0%;
+        left: 79%;
+    }
+
+
+    .dia-left-projects img {
+        transform: translate(0%, 424%);
+    }
+
+    .dia-left-projects-two img {
+        transform: translate(0%, 424%);
+    }
+
+    .dia-right-projects img {
+        transform: translate(0%, 7%);
+    }
+
+    .dia-right-projects-two img {
+        transform: translate(0%, 7%);
+    }
+
+
+    .hover-text-overlay {
+        font-size: 60px;
+        font-weight: 400;
+        padding: 20px;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+}
