@@ -1,0 +1,428 @@
+/*///////////////////////////////// @Media Index ////////////////////////////*/
+
+
+
+/* //////////////////////////// Most Mobile devices ////////////////////////    */
+@media screen and (max-width: 480px) {
+
+
+    /* .home::before {
+        width: 1090px;
+        height: 729%;
+    } */
+
+    .left-curtain {
+        display: none;
+
+    }
+
+    .right-curtain {
+        display: none;
+    }
+
+
+    /*///////////////////////////////// Nav Decor ////////////////////////////*/
+    .nav-background {
+        width: 1150px;
+        height: auto;
+        transform: translate(-50%, -95%);
+
+    }
+
+    /*///////////////////////// Navigation Overall /////////////////////*/
+    .nav-home,
+    .nav-about,
+    .nav-contact,
+    .nav-projects {
+        width: 210px;
+        height: 90px;
+        font-size: 30px;
+        line-height: 80px;
+
+    }
+
+    .current {
+        height: 120px;
+    }
+
+    /*///////////////////////// Nav Home //////////////////////////*/
+    .nav-home {
+        transform: translate(-235.5%, -20px);
+    }
+
+    .nav-home:hover {
+        height: 90px;
+    }
+
+    /*///////////////////////////// Nav About /////////////////////////*/
+    .nav-about {
+        transform: translate(-136%, -20px);
+    }
+
+    .nav-about:hover {
+        height: 90px;
+    }
+
+    /*/////////////////////////////////// Nav Contact ///////////////////////*/
+    .nav-contact {
+        transform: translate(36%, -20px);
+    }
+
+    .nav-contact:hover {
+        height: 90px;
+    }
+
+    /*///////////////////////////////// Nav Projects ////////////////////////////*/
+    .nav-projects {
+        transform: translate(135%, -20px);
+    }
+
+    .nav-projects:hover {
+        height: 16%;
+        max-height: 90px;
+    }
+
+    /*/////////////////////////////// Box Outline Outside ////////////////////////////*/
+
+    .box-outline-outside-wel,
+    .box-outline-outside-intro,
+    .box-outline-outside-gall {
+        width: 1000px;
+        height: 1400px;
+        left: 11%;
+    }
+
+    .box-outline-outside-wel {
+        transform: translate(0%, -7%);
+    }
+
+    .box-outline-outside-intro {
+        transform: translate(0%, 97%);
+    }
+
+    .box-outline-outside-gall {
+        transform: translate(0%, 200%);
+    }
+
+    /*///////////////////////////// Box Outline Inside ////////////////////////////*/
+
+
+    .box-outline-inside-wel,
+    .box-outline-inside-intro,
+    .box-outline-inside-gall {
+        width: 970px;
+        height: 1360px;
+    }
+
+
+    /*////////////////////////////////// Footer Outline //////////////////////////*/
+
+    .box-outline-outside-foot {
+        width: 1090px;
+        height: 300px;
+    }
+
+    .box-outline-outside-foot {
+        transform: translate(-18%, 1405%);
+
+    }
+
+    /*/////////////////////////////////////*/
+
+    .box-outline-inside-foot {
+        left: 1%;
+        width: 1070px;
+        height: 276px;
+
+    }
+
+    .github {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    .twitter {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    .discord {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    .linkedin {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+    .instagram {
+        width: 85px;
+        height: 85px;
+        border-radius: 40px;
+    }
+
+
+
+    /*///////////////////////////////// Heading Box ////////////////////////////*/
+
+    .box-outline-heading-wel,
+    .box-outline-heading-intro {
+        width: 910px;
+        height: 195px;
+    }
+
+    .box-outline-heading-wel {
+        height: 135px;
+        transform: translate(0%, 0%);
+        top: 3%;
+        left: 4%;
+    }
+
+    .box-outline-heading-intro {
+        transform: translate(0%, 0%);
+        top: 3%;
+        left: 4%;
+
+    }
+
+    .box-outline-heading-gall {
+        transform: translate(0%, 0%);
+        top: 3%;
+        left: 4%;
+        width: 910px;
+        height: 115px;
+    }
+
+    /*////////////////////////////// Paragraph Outline ////////////////////////////*/
+
+    .box-outline-paragraph-update {
+        width: 870px;
+        height: 620px;
+        transform: translate(0%, 0%);
+        top: 30%;
+        left: 4%;
+        z-index: 1;
+    }
+
+
+    .box-outline-paragraph-wel {
+        width: 870px;
+        height: 440px;
+        transform: translate(0%, 0%);
+        top: 10%;
+        left: 4%;
+        z-index: 1;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .box-outline-paragraph-intro {
+        width: 870px;
+        height: 280px;
+        transform: translate(0%, 0%);
+        top: 3%;
+        left: 4%;
+    }
+
+    /*///////////////////////////////// Heading Text ////////////////////////////*/
+
+    .heading-intro,
+    .heading-introduction {
+        line-height: 90px;
+        width: 900px;
+        font-size: 39px;
+        text-align: center;
+        -webkit-text-stroke: 1px #4C0B13;
+        top: -20%;
+        left: 0%;
+    }
+
+    .heading-gallery {
+        line-height: 90px;
+        width: 900px;
+        font-size: 39px;
+        text-align: center;
+        -webkit-text-stroke: 1px #4C0B13;
+        top: -35%;
+        left: 0%;
+    }
+
+
+    /*///////////////////////////////// Paragraph Text ////////////////////////////*/
+
+    .update p {
+        width: 850px;
+        /* transform: translate(-22%, 35%); */
+        z-index: 1;
+        font-size: 40px;
+        line-height: 45px;
+        top: -3%;
+        left: 2%;
+    }
+
+
+
+    .welcome p {
+        width: 850px;
+        /* transform: translate(-22%, 35%); */
+        z-index: 1;
+        font-size: 40px;
+        line-height: 55px;
+        top: -3%;
+        left: 2%;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .introduction p {
+        width: 830px;
+        top: 0%;
+        left: 0%;
+        font-size: 40px;
+        line-height: 55px;
+        /* transform: translate(0%, 0%); */
+        text-align: center;
+    }
+
+    /*/////////////////////////////////////*/
+
+    footer.section p {
+        font-size: 25px;
+        width: 900px;
+        transform: translate(-20%, 0%);
+    }
+
+    /*///////////////////////////////// Images /////////////////////////////////////*/
+    .welcome-image img {
+        width: 560px;
+        height: auto;
+        transform: translate(10%, 90%);
+    }
+
+
+
+    .protrait img {
+        width: 620px;
+        height: auto;
+        transform: translate(2%, 340%);
+    }
+
+
+    /*///////////////// Gallery Ani ////////////////////*/
+
+    .image-container {
+        transform: translate(-10%, 940%);
+    }
+
+    .image-container-two {
+        transform: translate(-10%, 1050%);
+    }
+
+    .image-container-three {
+        transform: translate(-10%, 1160%);
+    }
+
+    .image-container,
+    .image-container-two,
+    .image-container-three {
+        top: 50%;
+        left: 50%;
+        width: 850px;
+        height: 320px;
+        overflow: hidden;
+    }
+
+    .hover-text-overlay {
+        font-size: 60px;
+    }
+
+    /*///////////////////////////////// Button ////////////////////////////*/
+
+    .patreon,
+    .more-about-me {
+        width: 350px;
+        height: 120px;
+        line-height: 120px;
+
+    }
+
+    /*/////////////////////////////////////*/
+
+    .patreon {
+        transform: translate(-20%, 390%);
+        font-size: 50px;
+        text-align: center;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .more-about-me {
+        transform: translate(40%, 1545%);
+        font-size: 32px;
+    }
+
+    /*/////////////////////////////////////*/
+
+    .view-more {
+        width: 380px;
+        height: 70px;
+        transform: translate(40%, 5350%);
+        font-size: 35px;
+        line-height: 65px;
+
+    }
+
+    /*///////////////////////////////// Decor ////////////////////////////*/
+
+    .dia-left img,
+    .dia-left-two img,
+    .dia-left-three img {
+        width: 200px;
+        height: auto;
+        top: 0%;
+        left: 1%;
+    }
+
+    .dia-right-three img,
+    .dia-right-two img,
+    .dia-right img {
+        width: 200px;
+        height: auto;
+        top: 0%;
+        left: 79%;
+    }
+
+
+    .dia-left img {
+        transform: translate(0%, 360%);
+    }
+
+    .dia-left-two img {
+        transform: translate(0%, 360%);
+    }
+
+    .dia-left-three img {
+        transform: translate(0%, 360%);
+    }
+
+    .dia-right img {
+        transform: translate(0%, 7%);
+    }
+
+    .dia-right-two img {
+        transform: translate(0%, 7%);
+    }
+
+    .dia-right-three img {
+        transform: translate(0%, 7%);
+    }
+
+
+
+
+}

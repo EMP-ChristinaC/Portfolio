@@ -165,26 +165,35 @@
         height: 85px;
         border-radius: 40px;
     }
+
+
+
     /*///////////////////////////////// Heading Box ////////////////////////////*/
 
     .box-outline-heading-wel,
     .box-outline-heading-intro {
         width: 910px;
         height: 195px;
-
     }
 
     .box-outline-heading-wel {
-        transform: translate(-12%, -20%);
+        height: 135px;
+        transform: translate(0%, 0%);
+        top: 3%;
+        left: 4%;
     }
 
     .box-outline-heading-intro {
-        transform: translate(-12%, 730%);
+        transform: translate(0%, 0%);
+        top: 3%;
+        left: 4%;
 
     }
 
     .box-outline-heading-gall {
-        transform: translate(-12%, 2480%);
+        transform: translate(0%, 0%);
+        top: 3%;
+        left: 4%;
         width: 910px;
         height: 115px;
     }
@@ -194,7 +203,9 @@
     .box-outline-paragraph-update {
         width: 870px;
         height: 620px;
-        transform: translate(-10%, 100%);
+        transform: translate(0%, 0%);
+        top: 30%;
+        left: 4%;
         z-index: 1;
     }
 
@@ -202,7 +213,9 @@
     .box-outline-paragraph-wel {
         width: 870px;
         height: 440px;
-        transform: translate(-10%, 39%);
+        transform: translate(0%, 0%);
+        top: 15%;
+        left: 7%;
         z-index: 1;
     }
 
@@ -211,7 +224,9 @@
     .box-outline-paragraph-intro {
         width: 870px;
         height: 280px;
-        transform: translate(-12%, 585%);
+        transform: translate(0%, 0%);
+        top: 20%;
+        left: 6%;
     }
 
     /*///////////////////////////////// Heading Text ////////////////////////////*/
@@ -286,7 +301,9 @@
     .welcome-image img {
         width: 560px;
         height: auto;
-        transform: translate(10%, 90%);
+        transform: translate(0%, 0%);
+        top: 48%;
+        left: 18%;
     }
 
 
@@ -294,29 +311,29 @@
     .protrait img {
         width: 620px;
         height: auto;
-        transform: translate(2%, 340%);
+        top: 52%;
+        left: 18%;
+        transform: translate(0%, 0%);
     }
 
 
     /*///////////////// Gallery Ani ////////////////////*/
 
     .image-container {
-        transform: translate(-10%, 940%);
+        transform: translate(-50%, 60%);
     }
 
     .image-container-two {
-        transform: translate(-10%, 1050%);
+        transform: translate(-50%, 170%);
     }
 
     .image-container-three {
-        transform: translate(-10%, 1160%);
+        transform: translate(-50%, 280%);
     }
 
     .image-container,
     .image-container-two,
     .image-container-three {
-        top: 50%;
-        left: 50%;
         width: 850px;
         height: 320px;
         overflow: hidden;
@@ -347,7 +364,7 @@
     /*/////////////////////////////////////*/
 
     .more-about-me {
-        transform: translate(40%, 1545%);
+        transform: translate(-52%, -90%);
         font-size: 32px;
     }
 
@@ -356,7 +373,7 @@
     .view-more {
         width: 380px;
         height: 70px;
-        transform: translate(40%, 5350%);
+        transform: translate(-130%, 0%);
         font-size: 35px;
         line-height: 65px;
 
