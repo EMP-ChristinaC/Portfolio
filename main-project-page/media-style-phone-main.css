@@ -220,8 +220,8 @@
     }
     
     .image-container-two { 
-        transform: translate(94%, 60%);
-    }
+        transform: translate(-20%, 280%);
+    }       
     
     .image-container-three { 
         transform: translate(94%, 171%);
@@ -232,17 +232,17 @@
     }
     
     .image-container-five { 
-        transform: translate(-20%, 280%);
+        transform: translate(94%, 60%);
     }
     
     .image-container-six { 
-        transform: translate(94%, 475%); 
-    }
-    
-    .image-container-seven { 
         transform: translate(-20%, 60%);
     }
     
+    .image-container-seven { 
+        transform: translate(94%, 280%); 
+    }
+
     .image-container,
     .image-container-two,
     .image-container-three,
