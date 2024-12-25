@@ -285,18 +285,20 @@
     /*///////////////////////////////// Paragraph Text ////////////////////////////*/
 
     .about-me p {
-        width: 850px;
+        width: 900px;
         /* transform: translate(-22%, 35%); */
         z-index: 1;
-        font-size: 40px;
+        font-size: 33px;
         line-height: 55px;
         left: 2%;
+        top: -30px;
     }
 
     .info p {
-        width: 830px;
-        top: -25%;
-        left: 0%;
+        width: 700px;
+        line-height: 55px;
+        top: -50%;
+        left: 10%;
         font-size: 40px;
         text-align: center;
     }

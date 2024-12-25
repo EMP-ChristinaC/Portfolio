@@ -166,11 +166,11 @@
 }
 
 .box-outline-paragraph-about {
-    width: 460px;
+    width: 500px;
     height: 550px;
     /* transform: translate(-95%, -10%); */
     z-index: 1;
-    top: 18%;
+    top: 12%;
     left: 6%;
 }
 
@@ -339,12 +339,12 @@
 /*/////////////////////////////////////*/
 
 .about-me p {
-    width: 420px;
-    font-size: 22px;
+    width: 680px;
+    font-size: 24px;
     line-height: 38px;
     letter-spacing: 2px;
     position: absolute;
-    top: 0%;
+    top: 5%;
     left: 5%;
     /* transform: translate(-98%, -12%); */
     z-index: 1;
@@ -353,13 +353,13 @@
 /*/////////////////////////////////////*/
 
 .info p {
-    width: 500px;
+    width: 800px;
     font-size: 20px;
     line-height: 32px;
     letter-spacing: 2px;
     position: absolute;
-    top: 0%;
-    left: 5%;
+    top: 580%;
+    left: 100%;
     /* transform: translate(11%, 550%); */
     word-wrap: break-word;
 }
