@@ -403,6 +403,10 @@ footer.section p {
     transform: translate(-90%, 0%); 
 }
 
+.image-container-ruines { 
+    transform: translate(15%, 0%); 
+}
+
 
 .image-container,
 .image-container-two,
@@ -412,7 +416,8 @@ footer.section p {
 .image-container-six,
 .image-container-seven,
 .image-container-liyue,
-.image-container-sniffle {
+.image-container-sniffle,
+.image-container-ruines {
     top: 50%;
     left: 50%;
     position: absolute;
@@ -437,6 +442,14 @@ footer.section p {
     object-fit: cover;
     transition: all 0.3s ease-in-out;
 }
+
+.image-container-ruines img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
 
 .image-container img {
     width: 120%;
@@ -532,12 +545,12 @@ footer.section p {
 .image-container-six:hover .hover-overlay,
 .image-container-seven:hover .hover-overlay,
 .image-container-liyue:hover .hover-overlay,
-.image-container-sniffle:hover .hover-overlay {
+.image-container-sniffle:hover .hover-overlay,
+.image-container-ruines:hover .hover-overlay {
     opacity: 1;
 }
 
-/*//////////////////////////Pop up Animation//////////////////////*/
-
+/*////////////////////////// Pop up Animation //////////////////////*/
 
 .image-trigger {
     cursor: pointer;
@@ -567,27 +580,46 @@ footer.section p {
     border-radius: 20px;
     position: relative;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
     font-size: 17px;
     font-family: Overlock;
     font-weight: 400;
 }
 
-.popup-content #popup-image {
+/* Container for image or video */
+#popup-media {
     max-width: 500px;
     max-height: 600px;
     margin-right: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add box-shadow here */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+/* Styling for images inside the popup */
+#popup-media img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+/* Styling for videos inside the popup */
+#popup-media video {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    outline: none; /* Removes outline when clicking the video */
+}
+
+/* Text box styling */
 .popup-content .text-box {
     max-width: 300px;
     max-height: 400px;
     overflow-y: auto;
 }
 
-
+/* Close button */
 .close {
     position: absolute;
     top: 10px;
@@ -596,13 +628,13 @@ footer.section p {
     cursor: pointer;
 }
 
+/* Arrows */
 .arrow {
     cursor: pointer;
     z-index: 1001;
     width: 40px;
     height: 45px;
     margin: 10px;
-
 }
 
 .arrows-container {
@@ -615,9 +647,4 @@ footer.section p {
 
 .arrow-up {
     margin-bottom: 10px;
-<<<<<<< HEAD
 }
-
-=======
-}
->>>>>>> parent of 5343b3a (New Project)

@@ -199,9 +199,15 @@
             <div class="hover-text-overlay">Unknown</div>
         </div>
     </div> -->
+    <div class="image-container-ruines image-trigger" onclick="openPopup(5)">
+        <img src="../image/RuinesMenu.png" alt="An overview image of a project called Ruines">
+        <div class="hover-overlay">
+            <div class="hover-text-overlay">Ruines</div>
+        </div>
+    </div>
 
-    <!--- /////////////////////// Pop up ///////////////////////-->
-
+       <!--- /////////////////////// Pop up ///////////////////////-->
+       
     <div class="popup" id="popup" onclick="closePopup(event)">
         <div class="popup-content" onclick="event.stopPropagation()">
             <span class="close" onclick="closePopup(event)">&times;</span>
@@ -209,7 +215,7 @@
                 <img src="../image/up-arrow.png" class="arrow arrow-up" onclick="prevImage(event)" alt="Previous Arrow Image">
                 <img src="../image/down-arrow.png" class="arrow arrow-down" onclick="nextImage(event)" alt="Next Arrow Image">
             </div>
-            <img id="popup-image" src=".." alt="Pop-up Image">
+            <div id="popup-media"></div> <!-- This div dynamically holds an image or video -->
             <div class="text-box">
                 <h2 id="popup-title"></h2>
                 <p id="popup-text"></p>
